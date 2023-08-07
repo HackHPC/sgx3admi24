@@ -10,4 +10,4 @@ This site will act as the main event site for SC23's HPC in the City: Denver Hac
 * Texas Advanced Computing Center's STAR Partners
 * Omnibond Systems
 
-<br><img src="https://hackhpc.github.io/HPCintheCity23/assets/logos/SC23-logo.png">
+<br><img src="https://hackhpc.github.io/HPCintheCity23/assets/imgs/logos/SC23-logo.png">

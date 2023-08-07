@@ -1,0 +1,44 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+        {%- assign currentYear = 'now' | date: "%Y" -%}
+        {%- assign copyright = site.copyright
+            | replace: '{currentYear}', currentYear
+            | replace: '{author}', site.author
+            | replace: '(c)', '&copy;'
+            | replace: '(p)', '℗'
+            | replace: '(cleft)', '<span class="copyleft">&copy;</span>'
+        -%}
+  
+        
+        
+        <div>
+          <a style="color: black;" href="http://hackhpc.org"><strong>HackHPC.org</strong></a>
+          <a href="mailto:{{ site.email }}"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/{{ site.instagram_username }}"><i class="fa-brands fa-instagram"></i></a>
+          <a href="{{ site.linkedin_username }}"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/{{ site.github_username }}"><i class="fa-brands fa-github"></i></a>
+          <a href="{{ site.youtube_page }}"><i class="fa-brands fa-youtube"></i></a>
+
+        </div>  
+        <div><strong>HackHPC@AMDI23 supported by:</strong></div>
+          <div style="width: 30%;">
+            {% for sponsor in site.data.sponsors.sponsors %}
+              {% if forloop.last == true %}
+              <a href="{{ sponsor.url }}"> {{ sponsor.name }} </a>  
+              {% else %}
+              <a href="{{ sponsor.url }}"> {{ sponsor.name }}</a> |
+              {% endif %}
+            {% endfor %}
+          </div>
+        <div>{{ copyright }}</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></div>
+    </div>
+  </div>
+</footer>

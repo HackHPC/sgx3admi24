@@ -27,6 +27,7 @@ html {
           transition: 0.1s color;
         }
 
+
         @include media-query($on-laptop) {
           .page-link {
             color: $header-text-color;
@@ -116,7 +117,7 @@ html {
 
     .site-favicon {
       display: inline-block;
-      height: calc(calc($header-height / 1.5));
+      height: calc($header-height / 1.5);
       margin-right: 5px;
     }
   }

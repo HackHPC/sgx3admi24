@@ -5,139 +5,146 @@
 
       <div class="event">
         <div class="event-left">
-        
+          
           <p>
-          <a href="mailto:{{ organizer.email }}"><i class="fa-solid fa-envelope"></i> E-mail</a>
+          
+            <ul class="organizers-socials">
+          <li class="organizers-socials">Socials</li>  
+          <li class="organizers-socials"><a href="mailto:{{ organizer.email }}"><i class="fa-solid fa-envelope"></i></a></li>
           {% if organizer.linkedin %}
-          &nbsp; <a href="{{ organizer.linkedin }}"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <li class="organizers-socials"><a href="{{ organizer.linkedin }}"><i class="fa-brands fa-linkedin"></i></a></li>
+          {% endif %}
+
+          {% if organizer.personal_site %}
+          
+            <li class="organizers-socials"><a href="{{ organizer.personal_site }}" target="_blank" title="Personal Site">
+              <i class="far fa-id-card"></i>
+            </a></li>
+          
           {% endif %}
           
-          {% if organizer.socials.orcid %}
-            <a href="https://orcid.org/{{ organizer.socials.orcid }}" target="_blank" title="ORCID">
-              <i class="ai ai-orcid"></i>
-            </a>
+          {% if organizer.orcid %}
+           <li class="organizers-socials"><a href="https://orcid.org/{{ organizer.orcid }}" target="_blank" title="ORCID">
+            <i class="fab fa-orcid"></i> 
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.scholar %}
+          {% if organizer.scholar %}
           
-            <a href="https://scholar.google.com/citations?user={{ organizer.socials.scholar }}" target="_blank" title="Google Scholar">
-              <i class="ai ai-google-scholar"></i>
-            </a>
+            <li class="organizers-socials"><a href="https://scholar.google.com/citations?user={{ organizer.scholar }}" target="_blank" title="Google Scholar">
+              <i class="fab fa-google"></i>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.publons %}
+          {% if organizer.publons %}
           
-            <a href="https://publons.com/a/{{ organizer.socials.publons }}/" target="_blank" title="Publons">
+            <li class="organizers-socials"><a href="https://publons.com/a/{{ organizer.publons }}/" target="_blank" title="Publons">
               <i class="ai ai-publons"></i>
-            </a>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.research_gate %}
+          {% if organizer.research_gate %}
           
-            <a href="https://www.researchgate.net/profile/{{ organizer.socials.research_gate }}/" target="_blank" title="ResearchGate">
-              <i class="ai ai-researchgate"></i>
-            </a>
+            <li class="organizers-socials"><a href="https://www.researchgate.net/profile/{{ organizer.research_gate }}/" target="_blank" title="ResearchGate">
+              <i class="fab fa-researchgate"></i>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.dblp %}
+          {% if organizer.dblp %}
           
-            <a href="{{ organizer.socials.dblp }}/" target="_blank" title="DBLP">
+            <li class="organizers-socials"><a href="{{ organizer.dblp }}/" target="_blank" title="DBLP">
               <i class="ai ai-dblp"></i>
-            </a>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.semantic_scholar %}
+          {% if organizer.semantic_scholar %}
           
-            <a href="{{ organizer.socials.semantic_scholar }}/" target="_blank" title="Semantic Scholar">
+            <li class="organizers-socials"><a href="{{ organizer.semantic_scholar }}/" target="_blank" title="Semantic Scholar">
               <i class="ai ai-semantic-scholar"></i>
-            </a>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.linkedin %}
+          {% if organizer.github %}
           
-            <a href="{{ organizer.socials.linkedin }}" target="_blank" title="Linkedin">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          
-          {% endif %}
-
-          {% if organizer.socials.github %}
-          
-            <a href="https://github.com/{{ organizer.socials.github }}" target="_blank" title="Github">
+            <li class="organizers-socials"><a href="https://github.com/{{ organizer.github }}" target="_blank" title="Github">
               <i class="fab fa-github"></i>
-            </a>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.gitlab %}
+          {% if organizer.gitlab %}
           
-            <a href="https://gitlab.com/{{ organizer.socials.gitlab }}" target="_blank" title="Gitlab">
+            <li class="organizers-socials"><a href="https://gitlab.com/{{ organizer.gitlab }}" target="_blank" title="Gitlab">
               <i class="fab fa-gitlab"></i>
-            </a>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.bitbucket %}
+          {% if organizer.bitbucket %}
           
-            <a href="https://bitbucket.org/{{ organizer.socials.bitbucket }}" target="_blank" title="Bitbucket">
+            <li class="organizers-socials"><a href="https://bitbucket.org/{{ organizer.bitbucket }}" target="_blank" title="Bitbucket">
               <i class="fab fa-bitbucket"></i>
-            </a>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.google_plus %}
+          {% if organizer.google_plus %}
           
-            <a href="https://plus.google.com/{{ organizer.socials.google_plus }}" target="_blank" title="Google Plus">
+            <li class="organizers-socials"><a href="https://plus.google.com/{{ organizer.google_plus }}" target="_blank" title="Google Plus">
               <i class="fab fa-google-plus-g"></i>
-            </a>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.mastodon %}
+          {% if organizer.mastodon %}
           
-            <a rel="me" href="{{ organizer.socials.mastodon }}" target="_blank" title="Mastodon">
+            <a rel="me" href="{{ organizer.mastodon }}" target="_blank" title="Mastodon">
               <i class="fab fa-mastodon"></i>
-            </a>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.twitter %}
+          {% if organizer.twitter %}
           
-            <a href="https://twitter.com/{{ organizer.socials.twitter }}" target="_blank" title="Twitter">
+            <li class="organizers-socials"><a href="https://twitter.com/{{ organizer.twitter }}" target="_blank" title="Twitter">
               <i class="fab fa-twitter"></i>
-            </a>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.youtube %}
+          {% if organizer.youtube %}
           
-            <a href="{{ organizer.socials.youtube }}" target="_blank" title="YouTube">
+            <li class="organizers-socials"><a href="{{ organizer.youtube }}" target="_blank" title="YouTube">
               <i class="fab fa-youtube"></i>
-            </a>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.facebook %}
+          {% if organizer.facebook %}
           
-            <a href="https://www.facebook.com/{{ organizer.socials.facebook }}" target="_blank" title="Facebook">
+            <li class="organizers-socials"><a href="https://www.facebook.com/{{ organizer.facebook }}" target="_blank" title="Facebook">
               <i class="fab fa-facebook-f"></i>
-            </a>
+            </a></li>
           
           {% endif %}
 
-          {% if organizer.socials.instagram %}
+          {% if organizer.instagram %}
           
-            <a href="http://instagram.com/{{ organizer.socials.instagram }}" target="_blank" title="Instagram">
+            <li class="organizers-socials"><a href="http://instagram.com/{{ organizer.instagram }}" target="_blank" title="Instagram">
               <i class="fab fa-instagram"></i>
-            </a>
+            </a></li>
           
           {% endif %}
+
+
+
+        </ul>
         </p>
         </div>
 

@@ -1515,6 +1515,21 @@ h2.event-title {
   font-weight: bold;
   text-align: center;
   border-radius: 8px 0 0 8px;
+  /* *
+  * Organizers
+  */
+}
+.event .event-left ul.organizers-socials {
+  list-style-type: none;
+}
+.event .event-left li.organizers-socials:not(:first-child) {
+  display: inline;
+  font-size: x-large;
+}
+.event .event-left li.organizers-socials:first-child {
+  font-weight: bolder;
+  font-size: large;
+  padding-bottom: 10px;
 }
 
 .event .event-left .date {

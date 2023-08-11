@@ -61,6 +61,27 @@ h2.event-title {
   font-weight: bold;
   text-align: center;
   border-radius: 8px 0 0 8px;
+
+  /* *
+  * Organizers
+  */
+
+  ul.organizers-socials {
+    list-style-type: none;
+
+
+  }
+
+  li.organizers-socials:not(:first-child) {
+    display: inline;
+    font-size: x-large
+  }
+
+  li.organizers-socials:first-child {
+    font-weight: bolder;
+    font-size: large;
+    padding-bottom: 10px;
+  }
 }
 
 .event .event-left .date {
@@ -166,3 +187,4 @@ div.organizers {
     padding: 10px 0;
   }
 }
+

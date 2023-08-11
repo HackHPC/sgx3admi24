@@ -18,6 +18,7 @@ organizers:
     email:          haydenl@mindspring.com
     twitter:        https://twitter.com/lhaydenecsu
     github:         https://hackhpc.github.io/ 
+    research_gate:  L-Hayden
 
   - name:           Charlie Dey
     affiliation:    "Texas Advanced Computing Center"
@@ -28,6 +29,7 @@ organizers:
     email:          charlie@tacc.utexas.edu
     twitter:        https://twitter.com/DeyCharlie
     github:         https://github.com/ubik10
+    research_gate:  S-Dey
   
   - name:           Alexander Nolte
     affiliation:    "University of Tartu"
@@ -38,6 +40,9 @@ organizers:
     email:          alexander.nolte@ut.ee
     twitter:        https://twitter.com/alexander_nolte/
     github:         https://github.com/alexandernolte
+    personal_site:  https://alexandernolte.github.io/
+    research_gate:  Alexander_Nolte
+    scholar:        "0Vmn0QQAAAAJ&hl=de&oi=ao"
 
   - name:           Je'aime Powell
     affiliation:    "Texas Advanced Computing Center"
@@ -47,7 +52,11 @@ organizers:
     bio:            "Je’aime Powell currently works as a Senior Systems Administrator and Technical Research Design Analyst at the Texas Advanced Computing Center(TACC) within the University of Texas at Austin. While supporting high-performance computing users, he also leads hackathons, STEM-based high school summer camps, and facilitates related training sessions. His research in the fields of Intelligent Systems and Decision Systems Support with a focus on the development of adaptive IoT environmental sensors. He holds both a Master’s degree in Applied Mathematics with a Concentration in Remote Sensing and a Bachelor’s in Computer Science from Elizabeth City State University."
     email:          jpowell@tacc.utexas.edu
     twitter:        https://twitter.com/jeaimehp
-    github:         https://github.com/jeaimehp 
+    github:         https://github.com/jeaimehp
+    orcid:          0000-0003-1377-5422
+    research_gate:  Jeaime-Powell
+    personal_site:  http://jeaimehpc.com
+    scholar:        sd6PjdkAAAAJ
 
   - name:           Boyd Wilson
     affiliation:    "Omnibond"

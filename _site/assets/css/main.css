@@ -253,7 +253,7 @@ html[data-scroll-status=top] footer.site-footer .site-footer-inner {
   border-top: solid 1px #eee;
 }
 html[data-scroll-status=down] header.site-header {
-  top: -22.4px;
+  top: -63.84px;
 }
 html[data-scroll-status=down] .framework .sidebar {
   top: 20px;
@@ -264,7 +264,7 @@ html[data-scroll-status=down] .framework .sidebar {
  */
 .site-header {
   background-color: #ffffff;
-  height: 22.4px;
+  height: 63.84px;
   width: 100%;
   transition: height 0.2s, text-shadow 0.2s, top 0.2s;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.06);
@@ -298,7 +298,7 @@ html[data-scroll-status=down] .framework .sidebar {
 }
 
 .site-brand {
-  line-height: 22.4px;
+  line-height: 63.84px;
   margin-right: 50px;
 }
 .site-brand .site-brand-inner {
@@ -312,13 +312,13 @@ html[data-scroll-status=down] .framework .sidebar {
 }
 .site-brand .site-brand-inner .site-favicon {
   display: inline-block;
-  height: 7.4px;
+  height: 48.84px;
   margin-right: 5px;
 }
 
 .site-nav {
   font-size: 15.75px;
-  line-height: 22.4px;
+  line-height: 63.84px;
   position: absolute;
   right: 0;
   top: 0;
@@ -825,7 +825,7 @@ html[data-scroll-status=down] .framework .sidebar {
   position: -webkit-sticky;
   align-self: flex-start; /* <-- fix the sticky not work issue */
   transform: scale(0.9999); /* <-- fix the sticky x overflow issue */
-  top: 42.4px;
+  top: 83.84px;
 }
 @media screen and (max-width: 800px) {
   .framework .sidebar {

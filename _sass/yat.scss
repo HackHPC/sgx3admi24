@@ -21,7 +21,7 @@ $white-color: #fdfdfd !default;
 
 $table-text-align: left !default;
 
-$header-height: calc($base-line-height * $base-font-size * 2.85) !default;
+$header-height: calc(calc($base-line-height * $base-font-size) * 2.85) !default;
 $header-text-color: invert($theme-color) !default;
 $header-background-color: $theme-color !default;
 

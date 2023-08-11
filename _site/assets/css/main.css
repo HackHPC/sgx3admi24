@@ -312,7 +312,8 @@ html[data-scroll-status=down] .framework .sidebar {
 }
 .site-brand .site-brand-inner .site-favicon {
   display: inline-block;
-  height: 60px;
+  height: 42.56px;
+  max-width: 75px;
   margin-right: 5px;
 }
 

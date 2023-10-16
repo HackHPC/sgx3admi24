@@ -28,7 +28,7 @@
 
 general_schedule:
 ## date time format example '2012-01-26T13:51:50.417-04:00' 
-  - date: "2023-11-12T10:30(-04:00)"
+  - date: "2023-11-02T10:30(-04:00)"
     session: Morning
 #    length: 02:00
 #    timezone: EDT
@@ -58,7 +58,7 @@ general_schedule:
 #        #    icon: fa-regular fa-file-pdf
 #        #    url: "assets/slides/pre-event_training/GitHub-and-Github-Pages.pdf"#
 
-  - date: "2023-11-13T10:30(-04:00)"
+  - date: "2023-11-03T10:30(-04:00)"
     session: Morning
 #    length: 02:00
 #    timezone: EDT
@@ -90,7 +90,7 @@ general_schedule:
 #            url: "https://youtu.be/8bbOohYJumg"#
 
 #          
-  - date: "2023-11-13T18:30(-04:00)"
+  - date: "2023-11-03T18:30(-04:00)"
     session: Evening
 #    length: 02:00
 #    timezone: EDT
@@ -107,7 +107,7 @@ general_schedule:
         description: >
           1-Slide/1-Minute with: <br>
           &nbsp;&nbsp; - Team Name <br>
-          &nbsp;&nbsp; - Target Portal Name<br>
+
           &nbsp;&nbsp; - Goals the team wants to accomplish and at least five (5) tasks needed to accomplish those goals 
 #        links:
 #          - title: Google Slides Deck
@@ -122,38 +122,8 @@ general_schedule:
 #            icon: "fab fa-youtube" #fa-regular fa-file-pdf
 #            iconcolor: red
 #            url: "https://youtu.be/7Z4VRvZJNgM"#
-#
-
-#  - date: "2023-06-27T15:30(-04:00)"
-#    session: Evening #Morning
-#    length: 02:00
-#    timezone: EDT
-#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_2-Afternoon_Checkin.ics
-#    #location: Westin 6th Floor - Chastain F Room 
-#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
-#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
-#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
-#    theme: Day 2 Evening Check-in
-#    events: 
-#      - name: Team Resources
-#        #type: Presentation 
-#        description: >
-#          1-Slide/1-Minute with: <br>
-#          &nbsp;&nbsp; - Team Name <br>
-#          &nbsp;&nbsp; - At least 5 Resources/Tools the team will use.
-#        links:
-#          - title: Google Slides Deck
-#            icon: "fab fa-google-drive" #fa-regular fa-file-pdf 
-#            url: "https://docs.google.com/presentation/d/1HaU8LJLra-AZ6ewPbKfiL5Sao4LHQVUIXPwKDbBIOZ4/edit?usp=sharing"
-#            iconcolor: black
-#          - title: Slides Deck
-#            icon: fa-regular fa-file-pdf 
-#            url: "assets/slides/TeamGoalsandResources.pdf"
-#            iconcolor: red#
-
-#  
-  - date: "2023-11-14T10:30(-04:00)"
+  
+  - date: "2023-11-04T10:30(-04:00)"
     session: Morning
 #    length: 02:00
 #    timezone: EDT
@@ -170,11 +140,11 @@ general_schedule:
         description: >
           1-Slide/1-Minute with: <br>
           &nbsp;&nbsp; - Team Name <br>
-          &nbsp;&nbsp; - Target Portal Name<br>
+
           &nbsp;&nbsp; - Current Status <br>
           &nbsp;&nbsp; - At least 3 tasks to be accomplished by evening session
 
-  - date: "2023-11-14T18:30(-04:00)"
+  - date: "2023-11-04T18:30(-04:00)"
     session: Evening #Morning
 #    length: 02:00
 #    timezone: EDT
@@ -193,7 +163,60 @@ general_schedule:
 #          &nbsp;&nbsp; - Team Name <br>
 #          &nbsp;&nbsp; - Current Status#
 
-  - date: "2023-11-15T15:30(-04:00)"
+
+  - date: "2023-11-05T10:30(-04:00)"
+    session: Morning
+#    length: 02:00
+#    timezone: EDT
+#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_3_Morning_Checkin.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    theme: Day 4 Morning Check-in
+    events: 
+      - name: Team Progress
+#        #type: Presentation 
+        description: >
+          1-Slide/1-Minute with: <br>
+          &nbsp;&nbsp; - Team Name <br>
+
+          &nbsp;&nbsp; - Current Status <br>
+          &nbsp;&nbsp; - At least 3 tasks to be accomplished by evening session
+
+
+
+  - date: "2023-11-06T10:30(-04:00)"
+    session: Morning #Evening #Morning
+#    length: 02:00
+#    timezone: EDT
+#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_4-Final_Presentations.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    theme: Day 5
+    events: 
+      - name: Team Progress
+#        #type: Presentation 
+        description: >
+          Deliverables Reminder: <br>
+          &nbsp;&nbsp; - Project GitHub Repository link posted to the #hpcinthecity23-hackathon channel with:<br>
+          &nbsp;&nbsp; - PDF of Team Presentation<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Team Members and Mentor(s) Names <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Identified issues <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Addressed issues and methods/technologies used <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Demo Site Link <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Demo Site Screen Shots <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Future Work/Recomendations <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - References <br>
+
+
+
+
+  - date: "2023-11-06T15:30(-04:00)"
     session: Last Session #Evening #Morning
 #    length: 02:00
 #    timezone: EDT
@@ -203,7 +226,7 @@ general_schedule:
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
 #    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
-    theme: Day 4 Final Presentations
+    theme: Day 5 Final Presentations
     events: 
       - name: Final Presentations
 #        #type: Presentation 

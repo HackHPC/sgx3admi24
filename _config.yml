@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "SC23's HPC in the City: Denver"
+title: "SC23's HPC in the City: Pandemics"
 email: "schack@hackhcp.org"
 author: HackHPC
 
@@ -60,7 +60,8 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "/hpcinthecity23" # the subpath of your site, e.g. /blog
 url: "https://hackhpc.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "assets/imgs/hackhpclogo-peopleonly.svg" #"assets/favicon.ico" # the favicon for your site
+favicon: "assets/imgs/hackhpclogo-peopleonly-orange.svg" #"assets/favicon.ico" # the favicon for your site
+#eventbadge: "assets/imgs/FacultyHackbadge.svg" # if the event has some type of logo or badge to be placed on pages inlew of header
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this

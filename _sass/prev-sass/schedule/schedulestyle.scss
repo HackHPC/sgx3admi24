@@ -1,8 +1,7 @@
-
-$lighbrand-color: #ffc999; //#48beb7;
+$lighbrand-color: #48beb7;
 $darkbrand-color: #0f4150;
-$accentbrand-color: #F9943B; //#68c18c;
-$notwhitebrand-color: #fcf7f1;
+$accentbrand-color: #68c18c;
+$notwhitebrand-color: #f1fbfc;
 
 
 h1.schedule-title {
@@ -83,16 +82,6 @@ h2.event-title {
     font-size: large;
     padding-bottom: 10px;
   }
-
-  a.organizers-socials{
-    color: $accentbrand-color;
-  }
-
-    a.organizers-socials:hover {
-      color: $lighbrand-color;
-    }
-  
-
 }
 
 .event .event-left .date {
@@ -121,15 +110,6 @@ h2.event-title {
   flex-direction: column;
   justify-content: center;
   padding: 0 24px;
-}
-
-.event .event-right strong.organizer-accent {
-  color: $accentbrand-color;
-}
-.event .event-right a.organizer-accent {
-  font-size: medium; 
-  font-weight: bold;
-  color: $brand-color;
 }
 
 img.organizers {
@@ -181,10 +161,6 @@ div.organizers {
   font-weight: normal;  
 
 }
-
-.event .event-right .event-topics em.event-em {
-  color: $accentbrand-color;
-} 
 
 .event .event-right .event-timing img {
   height: 20px;

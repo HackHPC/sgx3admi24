@@ -1,8 +1,8 @@
 
-$lighbrand-color: #ffc999; //#48beb7;
+$lighbrand-color: #48beb7;
 $darkbrand-color: #0f4150;
-$accentbrand-color: #F9943B; //#68c18c;
-$notwhitebrand-color: #fcf7f1; //#f1fbfc;
+$accentbrand-color: #68c18c;
+$notwhitebrand-color: #f1fbfc;
 
 /**
  * Animation for transparent header
@@ -209,41 +209,11 @@ html {
   background-repeat: no-repeat;
   background-position: right;
 
-  .wrapper .footer-container {
-    display: flex;
-    vertical-align: top;
-    
+  .site-footer-inner {
+    transition: border-top 0.2s;
+    padding: $spacing-unit * 1.8 0;
+  }
 
-    .footer-badge {
-      width: 33%;
-      margin: 20px;
-      text-align: middle;
-      text-align: right;
-      img {
-        width: 70%;
-        margin-right: 20px;
-        
-        //object-fit: scale-down;
-      }
-      
-    }
-
-    .footer-sponsors {
-      //width: 33%;
-      margin: auto;
-      text-align: middle;
-    }
-  
-
-
-    .site-footer-inner {
-      //width: 33%;
-      margin: auto;
-      text-align: middle;
-      //transition: border-top 0.2s;
-      padding: $spacing-unit * 1.8 0;
-    }
-    }
   a {
     $a-color: $brand-color;
     color: $a-color;

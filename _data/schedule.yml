@@ -123,8 +123,8 @@ general_schedule:
 #            iconcolor: red
 #            url: "https://youtu.be/7Z4VRvZJNgM"#
   
-  - date: "2023-11-04T10:30(-04:00)"
-    session: Morning
+  - date: "2023-11-04T18:30(-04:00)"
+    session: Evening
 #    length: 02:00
     timezone: EDT
 #    icsfile: assets/ics_files/HackHPC_ADMI23_Day_3_Morning_Checkin.ics

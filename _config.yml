@@ -56,7 +56,7 @@ registration_link: "https://forms.gle/jsjdXQkWh5zmf95P9"
 copyright: "Copyright (cleft) 2018-{currentYear} HackHPC All rights reserved."
 
 description: > # this means to ignore newlines until "baseurl:"
-  This site will act as the main event site for SC23's HPC in the City: Pandemics Hackathon taking place November 3-7, 2023 virtually. 
+  HPC in the City: Pandemics Hackathon event site, taking place virtually November 3-7, 2023. 
 
 baseurl: "/hpcinthecity23" # the subpath of your site, e.g. /blog
 url: "https://hackhpc.github.io" # the base hostname & protocol for your site, e.g. https://example.com

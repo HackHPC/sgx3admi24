@@ -1,0 +1,203 @@
+#preevent_schedule:
+## date time format example '2012-01-26T13:51:50.417-04:00' 
+#  - date: "2023-06-22T13:30(-04:00)"
+#    #session: Morning #Evening #Afternoon
+#    length: 02:00
+#    timezone: EDT
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+#    theme: Event Overview and Training
+#    events: 
+#      - name: GitHub/GitHub Pages Training
+#        #type: Presentation
+#        links:
+#          - title: Slide Deck
+#            icon: fa-regular fa-file-pdf
+#            iconcolor: red
+#            url: "assets/slides/pre-event_training/GitHub-and-Github-Pages.pdf"
+#          - title: YouTube Video
+#            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+#            iconcolor: red
+#            url: "https://youtu.be/UzzKBQmiLsU"
+#  #
+#
+#
+
+general_schedule:
+## date time format example '2012-01-26T13:51:50.417-04:00' 
+
+  - date: "2023-11-03T17:00(-04:00)"
+    session: Evening
+#    length: 02:00
+    timezone: CDT
+#    icsfile: assets/ics_files/HackHPC_ADMI23_1st_Checkin-Team_Introductions.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    theme: Kick-Off
+    events: 
+      - name: Mentor Project Pitches
+      - name: Team Formation
+#        links:
+#          - title: Slide Deck
+#            icon: fa-regular fa-file-pdf
+#            url: "assets/slides/Team Introductions.pdf"
+#            iconcolor: red
+#          - title: YouTube Video
+#            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+#            iconcolor: red
+#            url: "https://youtu.be/8bbOohYJumg"#
+
+#          
+ 
+  
+  - date: "2023-11-04T10:30(-04:00)"
+    session: Morning
+#    length: 02:00
+    timezone: CDT
+#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_3_Morning_Checkin.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    theme: Day 2 Morning Check-in
+    events: 
+      - name: Team Introductions
+#        #type: Presentation 
+        description: >
+          1-Slide/1-Minute with: <br>
+          &nbsp;&nbsp; - Team Name <br>
+          &nbsp;&nbsp; - Team Mentor(s) <br>
+          &nbsp;&nbsp; - Team Members <br>
+          &nbsp;&nbsp; - Team Zoom Virtual Background <br>
+          &nbsp;&nbsp; - Team Theme Song <br>
+      
+
+  - date: "2023-11-04T17:00(-04:00)"
+    session: Evening #Morning
+#    length: 02:00
+    timezone: CDT
+#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_3-Afternoon_Checkin.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    theme: Day 2 Evening Check-in
+    events: 
+      - name: Team Goals and Plan
+#        #type: Presentation 
+        description: >
+          2-Slides/2-Minutes with: <br>
+          &nbsp;&nbsp; - Team Name <br>
+          &nbsp;&nbsp; - Goal(s) the team wants to accomplish 
+          &nbsp;&nbsp; - Project Plan with team members linked to roles and at least five (5) tasks needed to accomplish those goals
+      - name: DAYLIGHT SAVINGS TIME CHANGE REMINDER!!!
+#        #type: Presentation 
+#        description: >
+#          1-Slide/1-Minute with: <br>
+#          &nbsp;&nbsp; - Team Name <br>
+#          &nbsp;&nbsp; - Current Status#
+
+
+  - date: "2023-11-05T14:00(-04:00)"
+    session: Afternoon
+#    length: 02:00
+    timezone: CST
+#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_3_Morning_Checkin.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    theme: Day 3 Afternoon Check-in
+    events: 
+      - name: Team Progress
+#        #type: Presentation 
+        description: >
+          1-Slide/1-Minute with: <br>
+          &nbsp;&nbsp; - Team Name <br>
+          &nbsp;&nbsp; - Current Status <br>
+          &nbsp;&nbsp; - At least 3 tasks to be accomplished by morning session
+
+
+
+  - date: "2023-11-06T17:00(-04:00)"
+    session: Evening #Morning
+#    length: 02:00
+    timezone: CST
+#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_4-Final_Presentations.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    theme: Final Check-in Day 4
+    events: 
+      - name: Team Progress
+#        #type: Presentation 
+        description: >
+          Deliverables Reminder: <br>
+          &nbsp;&nbsp; - Project GitHub Repository link posted to the #hpcinthecity23-hackathon channel with:<br>
+          &nbsp;&nbsp; - PDF of Team Presentation<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Team Members and Mentor(s) Names <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Identified issues <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Addressed issues and methods/technologies used <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Demo Site Link <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Demo Site Screen Shots <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Future Work/Recomendations <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - References <br>
+
+
+
+
+  - date: "2023-11-07T17:00(-04:00)"
+    session: Evening #Morning
+#    length: 02:00
+    timezone: CST
+#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_4-Final_Presentations.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    theme: Day 5 Final Presentations
+    events: 
+      - name: Final Presentations
+#        #type: Presentation 
+        description: >
+          Deliverables: <br>
+          &nbsp;&nbsp; - Project GitHub Repository link posted to the #hpcinthecity23-hackathon channel with:<br>
+          &nbsp;&nbsp; - PDF of Team Presentation<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Team Members and Mentor(s) Names <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Identified issues <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Addressed issues and methods/technologies used <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Demo Site Link <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Demo Site Screen Shots <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Future Work/Recomendations <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - References <br>
+#          <br>
+#          <strong>Awards:</strong><br>
+#          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Judges Choice Award 2nd Place</em> - <strong><a href="https://hackhpc.github.io/admi23/teams.html#The%20Data%20Miners" style="color: goldenrod;">The Data Miners</a></strong><br>
+#          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Judges Choice Award 1st Place</em> - <strong><a href="https://hackhpc.github.io/admi23/teams.html#Bug%20Busters" style="color: goldenrod;">Bug Busters</a></strong><br>
+#          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>SGX3 UX / UI Award </em> - <strong><a href="https://hackhpc.github.io/admi23/teams.html#CodeWarriors" style="color: goldenrod;">CodeWarriors</a></strong><br>
+#        links:
+#          - title: Slide Deck
+#            icon: fa-regular fa-file-pdf
+#            url: "assets/slides/Final_Presentations.pdf"
+#          - title: YouTube Video
+#            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+#            iconcolor: red
+#            url: "https://youtu.be/m9Rz01V_1lA"
+#          
+#          #
+#
+
+#  
+#  

@@ -14,15 +14,7 @@ sponsors: # Used for Sponsors
     url: https://www.tacc.utexas.edu/
     logo: /assets/imgs/logos/TACC-formal-Black-1c-5602fc8f.svg
 
-  - name: "Science Gateways Community Institute"
-    url: https://sciencegateways.org/
-    logo: /assets/imgs/logos/sgci-logo.svg
-    grant:
-      - awardagency: National Science Foundation
-        logo: /assets/imgs/logos/NSF.svg
-        url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1547611
-        description: >
-          The SGCI is funded by the National Science Foundation under award number ACI-1547611.
+    
   - name: "SGX3"
     url: https://sciencegateways.org/
     logo: /assets/imgs/logos/Mediamodifier-Design-Template.png

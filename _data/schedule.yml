@@ -140,6 +140,16 @@ general_schedule:
 #    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
     theme: Final Check-in Day 4
     events: 
+      - name: Voltron Data - Fernanda Foertter
+        links:
+          - title: Voltron Data
+            url: https://voltrondata.com
+            icon: fa-solid fa-link
+            iconcolor: black 
+          - title: Linkedin
+            url: https://www.linkedin.com/in/foertter/
+            icon: "fa-brands fa-linkedin"
+            iconcolor: "#0077b5" 
       - name: Team Progress
 #        #type: Presentation 
         description: >

@@ -13,7 +13,6 @@ sponsors: # Used for Sponsors
   - name: Texas Advanced Computing Center
     url: https://www.tacc.utexas.edu/
     logo: /assets/imgs/logos/TACC-formal-Black-1c-5602fc8f.svg
-
     
   - name: "SGX3"
     url: https://sciencegateways.org/
@@ -24,7 +23,11 @@ sponsors: # Used for Sponsors
         url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2231406
         description: >
           SGX3 is funded by the National Science Foundation under award number 2231406. 
-      
+
+  - name: "Voltron Data"
+    url: https://voltrondata.com
+    logo: /assets/imgs/logos/Voltron-Data-logo.jpeg
+
 #  - name: Amazon Web Services
 #    url: https://aws.amazon.com/
 #    logo: /assets/imgs/logos/AWS_logo_RGB.svg

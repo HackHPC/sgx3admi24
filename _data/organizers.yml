@@ -1,13 +1,5 @@
 organizers: 
-  - name:           Amy Cannon
-    affiliation:    "Omnibond"
-    site:           http://www.omnibond.com/
-    linkedin:       https://www.linkedin.com/in/amy-cannon-46230b31/
-    avatar:         assets/images/amy-sq.png
-    bio:            "Amy Cannon has worked at Omnibond for 10 years, where her Business Development skills allow her to engage with customers and partners, teaching how HPC and Cloud help solve scientific problems. Outside of work she enjoys spending time in nature as well as helping others grow their HPC, HTC, AI, and Cloud Computing knowledge."
-    email:          amycannon@omnibond.com
-    twitter:        https://twitter.com/amy__cannon
-    github:         https://hackhpc.github.io/ 
+  
 
   - name:           Dr. Linda Hayden
     affiliation:    "Science Gateways Community Institute"
@@ -20,6 +12,17 @@ organizers:
     github:         https://hackhpc.github.io/ 
     research_gate:  L-Hayden
 
+  - name:           Dr. Lauren Ancel Meyers
+    affiliation:    "University of Texas at Austin Center for Pandemic Decision Science"
+    site:           https://www.centerforpandemicdecisionscience.org/
+    linkedin:       https://www.linkedin.com/in/lauren-ancel-meyers-41949a179/
+    avatar:         assets/images/laurenmeyers.jpg
+    bio:            "Dr. Meyers is the Cooley Centennial Professor at the University of Texas at Austin, where she was the founding chair of the Department of Statistics and Data Sciences and recently established the UT COVID-19 Modeling Consortium, an NIH- and CDC-funded national center for pandemic modeling. For over 20 years, Dr. Meyers has pioneered the application of data-driven models and machine learning to improve the detection, surveillance, forecasting and control of emerging viral threats. She has built decision-support tools and provided time-sensitive analyses during the SARS, 2009 H1N1, Ebola, and Zika threats for public health and government leaders, including the US Centers for Disease Control and Prevention (CDC), Biomedical Advanced Research and Development Authority (BARDA), Defense Threat Reduction Agency (DTRA), US National Defense Council, and state and local agencies. Dr. Meyers’ COVID-19 Modeling Consortium has provided global leadership throughout the pandemic. They maintain multiple COVID-19 forecasting dashboards, have informed COVID-19 surveillance, response, testing and school opening strategies across the US, published dozens of COVID-19 commissioned reports and peer-reviewed articles and created two interactive risk maps to guide outbreak detection and school openings that were featured on the front page of the New York Times. Dr. Meyers was named as one of the top 100 global innovators under age 35 by the MIT Technology Review in 2004 and received the Joseph Lieberman Award for Significant Contributions to Science in 2017."
+    email:          UTpandemics@austin.utexas.edu
+    research_gate:  Lauren-Meyers-5
+    personal_site:  https://www.bio.utexas.edu/research/meyers/LaurenM/index.html
+    
+  
   - name:           Charlie Dey
     affiliation:    "Texas Advanced Computing Center"
     site:           https://www.tacc.utexas.edu/about/directory/charlie-dey
@@ -31,6 +34,16 @@ organizers:
     github:         https://github.com/ubik10
     research_gate:  S-Dey
   
+  - name:           Amy Cannon
+    affiliation:    "Omnibond"
+    site:           http://www.omnibond.com/
+    linkedin:       https://www.linkedin.com/in/amy-cannon-46230b31/
+    avatar:         assets/images/amy-sq.png
+    bio:            "Amy Cannon has worked at Omnibond for 10 years, where her Business Development skills allow her to engage with customers and partners, teaching how HPC and Cloud help solve scientific problems. Outside of work she enjoys spending time in nature as well as helping others grow their HPC, HTC, AI, and Cloud Computing knowledge."
+    email:          amycannon@omnibond.com
+    twitter:        https://twitter.com/amy__cannon
+    github:         https://hackhpc.github.io/ 
+
   - name:           Hector Santiago
     affiliation:    "Winston-Salem State University"
     site:           https://wssu.edu/

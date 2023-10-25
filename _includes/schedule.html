@@ -18,7 +18,9 @@
 
     <!-- Before Event Sessions -->
     {% if site.data.schedule.preevent_schedule %}
+    <div class="event-container">
     <h2 class="event-title" >Pre-Event Training Sessions</h2>
+    </div>
     {% for event in site.data.schedule.preevent_schedule %}
     <div class="event-container">
       <div class="event">
@@ -85,7 +87,7 @@
             {% for topic in event.events %}
              
                 <li>
-                    {{ topic.name }} {% if topic.type %} Type: <em style="background-color: lightgray;">{{ topic.type }}</em>  {% endif %}
+                    {% if topic.type %} <em style="background-color: lightsalmon; color: black;">&nbsp;{{ topic.type }} &nbsp;</em> {% endif %} {{ topic.name }} 
                     {% if topic.description %}
                        <p>
                          {{ topic.description }}
@@ -140,7 +142,9 @@
 
    
     {% if site.data.schedule.general_schedule %}
+    <div class="event-container">
     <h2 class="event-title">Event Sessions</h2>
+    </div>
     {% for event in site.data.schedule.general_schedule %}
     <div class="event-container">
       <div class="event">
@@ -192,7 +196,8 @@
             {% for topic in event.events %}
              
                 <li>
-                    {{ topic.name }} {% if topic.type %} Type: <em style="background-color: lightgray;">{{ topic.type }}</em>  {% endif %}
+                    {% if topic.type %} <em style="background-color: lightsalmon; color: black;">&nbsp;{{ topic.type }} &nbsp;</em> {% endif
+                    %} {{ topic.name }}
                     {% if topic.description %}
                        <p>
                          {{ topic.description }}

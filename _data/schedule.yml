@@ -28,8 +28,8 @@
 
 
 
+preevent_schedule:
 
-general_schedule:
 ## date time format example '2012-01-26T13:51:50.417-04:00' 
   - date: "2023-10-27T12:00(-04:00)"
     session: Afternoon
@@ -41,11 +41,12 @@ general_schedule:
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
     zoomlink: https://utexas.zoom.us/j/93369505464
-    theme: Mentor's Overview Training 
-    #events: 
-    #  - name: Mentor Project Pitches
+    theme: Mentors Overview
+    events: 
+      - name: Mentors and Staff Only Meeting
+        type: Training
 
-
+general_schedule:
   - date: "2023-11-03T17:00(-04:00)"
     session: Evening
 #    length: 02:00
@@ -59,6 +60,7 @@ general_schedule:
     theme: Kick-Off
     events: 
       - name: Mentor Project Pitches
+        type: Presentations
       - name: Team Formation
 #        links:
 #          - title: Slide Deck
@@ -86,7 +88,7 @@ general_schedule:
     theme: Day 2 Morning Check-in
     events: 
       - name: Team Introductions
-#        #type: Presentation 
+        type: Presentations 
         description: >
           1-Slide/1-Minute with: <br>
           &nbsp;&nbsp; - Team Name <br>
@@ -109,7 +111,7 @@ general_schedule:
     theme: Day 2 Evening Check-in
     events: 
       - name: Team Goals and Plan
-#        #type: Presentation 
+        type: Presentations 
         description: >
           2-Slides/2-Minutes with: <br>
           &nbsp;&nbsp; - Team Name <br>
@@ -136,7 +138,7 @@ general_schedule:
     theme: Day 3 Afternoon Check-in
     events: 
       - name: Team Progress
-#        #type: Presentation 
+        type: Presentations 
         description: >
           1-Slide/1-Minute with: <br>
           &nbsp;&nbsp; - Team Name <br>
@@ -158,6 +160,7 @@ general_schedule:
     theme: Final Check-in Day 4
     events: 
       - name: Voltron Data - Fernanda Foertter
+        type: Presentations
         links:
           - title: Voltron Data
             url: https://voltrondata.com
@@ -168,7 +171,7 @@ general_schedule:
             icon: "fa-brands fa-linkedin"
             iconcolor: "#0077b5" 
       - name: Team Progress
-#        #type: Presentation 
+        type: Presentations 
         description: >
           Deliverables Reminder: <br>
           &nbsp;&nbsp; - Project GitHub Repository link posted to the #hpcinthecity23-hackathon channel with:<br>
@@ -197,7 +200,7 @@ general_schedule:
     theme: Day 5 Final Presentations
     events: 
       - name: Final Presentations
-#        #type: Presentation 
+        type: Presentations
         description: >
           Deliverables: <br>
           &nbsp;&nbsp; - Project GitHub Repository link posted to the #hpcinthecity23-hackathon channel with:<br>

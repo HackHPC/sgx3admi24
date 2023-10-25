@@ -7,6 +7,10 @@ sponsors: # Used for Sponsors
     url: https://www.tacc.utexas.edu/partnerships/star-industry-program/
     logo: assets/imgs/logos/starprogram-logo.png
   
+  - name: "University of Texas at Austin Center for Pandemic Decision Science"
+    url: https://www.centerforpandemicdecisionscience.org/
+    logo: assets/imgs/logos/cpds-logo.png
+
   - name: Omnibond Systems
     url: http://omnibond.com/
     logo: /assets/imgs/logos/omnibond.svg

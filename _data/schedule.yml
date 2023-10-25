@@ -26,8 +26,25 @@
 #
 #
 
+
+
+
 general_schedule:
 ## date time format example '2012-01-26T13:51:50.417-04:00' 
+  - date: "2023-10-27T12:00(-04:00)"
+    session: Afternoon
+#    length: 02:00
+    timezone: CDT
+    icsfile: assets/ics_files/HPCintheCity-Pandemics-Mentors_Overview.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+    zoomlink: https://utexas.zoom.us/j/93369505464
+    theme: Mentor's Overview Training 
+    #events: 
+    #  - name: Mentor Project Pitches
+
 
   - date: "2023-11-03T17:00(-04:00)"
     session: Evening

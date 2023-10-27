@@ -34,6 +34,18 @@ organizers:
     github:         https://github.com/ubik10
     research_gate:  S-Dey
   
+  - name:           Spencer J. Fox
+    affiliation:    "University of Texas at Austin Center for Pandemic Decision Science"
+    site:           https://www.centerforpandemicdecisionscience.org/
+    #linkedin:       https://www.linkedin.com/in/hmsiii
+    avatar:         assets/imgs/icons/spencer-fox.jpeg
+    bio:            "Spencer J. Fox is an Assistant Professor in the department of Epidemiology and Biostatistics and the Institute of Bioinformatics at the University of Georgia. Spencer obtained a BSc in Biology from Rose-Hulman Institute of Technology and a PhD from the Ecology, Evolution, and Behavior program at The University of Texas at Austin. His research focuses on integrating biology, epidemiology, and statistics to understand and predict outbreak dynamics for informing public health responses with a focus on emerging infectious diseases like Zika, influenza, and COVID-19."
+    email:          sjfox@uga.edu
+    personal_site:  https://thefoxlab.wordpress.com/
+    twitter:        https://twitter.com/foxandtheflu
+    #github:         https://github.com/hectorsantiago5
+  
+  
   - name:           Amy Cannon
     affiliation:    "Omnibond"
     site:           http://www.omnibond.com/

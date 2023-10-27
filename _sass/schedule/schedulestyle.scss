@@ -1,10 +1,3 @@
-
-$lighbrand-color: #ffc999; //#48beb7;
-$darkbrand-color: #0f4150;
-$accentbrand-color: #F9943B; //#68c18c;
-$notwhitebrand-color: #fcf7f1;
-
-
 h1.schedule-title {
   font-size: 50px;
   text-align: center;
@@ -13,13 +6,12 @@ h1.schedule-title {
 }
 
 h2.event-title {
-  font-size: 20px;
-  //text-align: center;
+  font-size: 40px;
+  text-align: center;
   border-radius: 8px;
-  color: $darkbrand-color;
-  background: $notwhitebrand-color;
-  //border: 4px solid $accentbrand-color;
-  text-transform: uppercase;
+  color: black;
+  background: lightgray;
+  border: 4px solid darkgray;
 }
 
 .event-container {
@@ -31,7 +23,7 @@ h2.event-title {
 .event-container h3.year {
   font-size: 40px;
   text-align: center;
-  border-bottom: 1px solid $darkbrand-color;
+  border-bottom: 1px solid #b1b1b1;
 }
 
 .event-container .event {
@@ -47,12 +39,11 @@ h2.event-title {
   display: flex;
   border-radius: 8px;
   margin: 32px 0;
-  border: 1px solid $darkbrand-color;
-  background-color: $notwhitebrand-color;
+  border: 1px solid #222;
 }
 
 .event .event-left {
-  background: $darkbrand-color;
+  background: #222;
   width: 100px;
   display: flex;
   align-items: center;
@@ -62,37 +53,6 @@ h2.event-title {
   font-weight: bold;
   text-align: center;
   border-radius: 8px 0 0 8px;
-
-  /* *
-  * Organizers
-  */
-
-  ul.organizers-socials {
-    list-style-type: none;
-
-
-  }
-
-  li.organizers-socials:not(:first-child) {
-    display: inline;
-    font-size: x-large
-  }
-
-  li.organizers-socials:first-child {
-    font-weight: bolder;
-    font-size: large;
-    padding-bottom: 10px;
-  }
-
-  a.organizers-socials{
-    color: $accentbrand-color;
-  }
-
-    a.organizers-socials:hover {
-      color: $lighbrand-color;
-    }
-  
-
 }
 
 .event .event-left .date {
@@ -110,7 +70,6 @@ h2.event-title {
   border: 2px solid;
   padding: 5px 8px 5px 8px;
   border-radius: 8px;
-  color: $accentbrand-color;
 }
 
 
@@ -121,15 +80,6 @@ h2.event-title {
   flex-direction: column;
   justify-content: center;
   padding: 0 24px;
-}
-
-.event .event-right strong.organizer-accent {
-  color: $accentbrand-color;
-}
-.event .event-right a.organizer-accent {
-  font-size: medium; 
-  font-weight: bold;
-  color: $brand-color;
 }
 
 img.organizers {
@@ -154,7 +104,7 @@ div.organizers {
 .event .event-right h3.event-title {
   font-size: 24px;
   margin: 24px 0 10px 0;
-  color: $darkbrand-color;
+  color: #218bbb;
   text-transform: uppercase;
 }
 
@@ -182,10 +132,6 @@ div.organizers {
 
 }
 
-.event .event-right .event-topics em.event-em {
-  color: $accentbrand-color;
-} 
-
 .event .event-right .event-timing img {
   height: 20px;
   padding-right: 8px;
@@ -211,4 +157,3 @@ div.organizers {
     padding: 10px 0;
   }
 }
-

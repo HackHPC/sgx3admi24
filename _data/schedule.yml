@@ -8,7 +8,7 @@
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+#    zoomlink: https://utexas.zoom.us/j/98974589325
 #    theme: Event Overview and Training
 #    events: 
 #      - name: GitHub/GitHub Pages Training
@@ -26,6 +26,9 @@
 #
 #
 
+### Add link to ics file that has all other ics files merged
+
+mergedicsfile: assets/ics_files/HPCintheCity-Pandemics-ALLEVENTS.ics
 
 
 preevent_schedule:
@@ -68,12 +71,12 @@ preevent_schedule:
     session: Afternoon
 #    length: 02:00
     timezone: CDT
-    #icsfile: assets/ics_files/HPCintheCity-Pandemics-Mentors_Overview.ics
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Systems_On-Boarding_and_Training.ics
 #    #location: Westin 6th Floor - Chastain F Room 
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    #zoomlink: https://utexas.zoom.us/j/93369505464
+    zoomlink: https://utexas.zoom.us/j/92944333114
     theme: Systems On-Boarding Training
     events: 
       - name: TACC On-Boarding and Dataset Access
@@ -85,12 +88,12 @@ general_schedule:
     session: Evening
 #    length: 02:00
     timezone: CDT
-#    icsfile: assets/ics_files/HackHPC_ADMI23_1st_Checkin-Team_Introductions.ics
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Kick-Off.ics
 #    #location: Westin 6th Floor - Chastain F Room 
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/98974589325
     theme: Kick-Off
     events: 
       - name: Mentor Project Pitches
@@ -113,12 +116,12 @@ general_schedule:
     session: Morning
 #    length: 02:00
     timezone: CDT
-#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_3_Morning_Checkin.ics
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Day_2_Checkin-Morning.ics
 #    #location: Westin 6th Floor - Chastain F Room 
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/98974589325
     theme: Day 2 Morning Check-in
     events: 
       - name: Team Introductions
@@ -136,12 +139,12 @@ general_schedule:
     session: Evening #Morning
 #    length: 02:00
     timezone: CDT
-#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_3-Afternoon_Checkin.ics
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Day_2_Checkin-Afternoon.ics
 #    #location: Westin 6th Floor - Chastain F Room 
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/98974589325
     theme: Day 2 Evening Check-in
     events: 
       - name: Team Goals and Plan
@@ -163,12 +166,12 @@ general_schedule:
     session: Afternoon
 #    length: 02:00
     timezone: CST
-#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_3_Morning_Checkin.ics
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Day_3_Checkin-Afternoon.ics
 #    #location: Westin 6th Floor - Chastain F Room 
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/98974589325
     theme: Day 3 Afternoon Check-in
     events: 
       - name: Team Progress
@@ -185,12 +188,12 @@ general_schedule:
     session: Evening #Morning
 #    length: 02:00
     timezone: CST
-#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_4-Final_Presentations.ics
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Day_4_Checkin-Afternoon.ics
 #    #location: Westin 6th Floor - Chastain F Room 
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/98974589325
     theme: Final Check-in Day 4
     events: 
       - name: Voltron Data - Fernanda Foertter
@@ -225,12 +228,12 @@ general_schedule:
     session: Evening #Morning
 #    length: 02:00
     timezone: CST
-#    icsfile: assets/ics_files/HackHPC_ADMI23_Day_4-Final_Presentations.ics
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Day_5_Final_Presentations.ics
 #    #location: Westin 6th Floor - Chastain F Room 
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-#    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/98974589325
     theme: Day 5 Final Presentations
     events: 
       - name: Final Presentations

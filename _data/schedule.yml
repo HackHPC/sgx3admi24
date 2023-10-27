@@ -45,6 +45,40 @@ preevent_schedule:
     events: 
       - name: Mentors and Staff Only Meeting
         type: Training
+        links:
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/pre-event_training/Mentor_Training.pdf"
+            iconcolor: red
+          - title: Discord Server
+            icon: fa-brands fa-discord
+            url: https://discord.gg/G2a7JWnQkP
+            iconcolor: "#5865F2"
+          - title: Zoom Background
+            icon: "fa-solid fa-file-image"
+            url: assets/imgs/HPCintheCity23-ZoomBG2a.png
+            iconcolor: black
+          - title: PPTX Slide Template
+            icon: "fa-solid fa-file-powerpoint"
+            url: assets/slides/pre-event_training/hpcinthecity-slidedeck-template.pptx
+            iconcolor: red
+
+
+  - date: "2023-11-1T17:00(-04:00)"
+    session: Afternoon
+#    length: 02:00
+    timezone: CDT
+    #icsfile: assets/ics_files/HPCintheCity-Pandemics-Mentors_Overview.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+    #zoomlink: https://utexas.zoom.us/j/93369505464
+    theme: Systems On-Boarding Training
+    events: 
+      - name: TACC On-Boarding and Dataset Access
+        type: Training
+            
 
 general_schedule:
   - date: "2023-11-03T17:00(-04:00)"

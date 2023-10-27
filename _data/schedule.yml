@@ -28,7 +28,7 @@
 
 ### Add link to ics file that has all other ics files merged
 
-mergedicsfile: assets/ics_files/HPCintheCity-Pandemics-ALLEVENTS.ics
+mergedicsfile: https://hackhpc.github.io/hpcinthecity23/assets/ics_files/HPCintheCity-Pandemics-ALLEVENTS.ics
 
 
 preevent_schedule:

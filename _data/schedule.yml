@@ -81,6 +81,30 @@ preevent_schedule:
     events: 
       - name: TACC On-Boarding and Dataset Access
         type: Training
+        links: 
+          - title: Session Slide Deck
+            url: assets/slides/pre-event_training/SystemsOn-Boarding-Training.pdf
+            icon: fa-regular fa-file-pdf
+            iconcolor: red
+          - title: GitHub
+            url: https://github.com
+            icon: fa-solid fa-link
+            iconcolor: black
+          - title: Discord Server
+            icon: fa-brands fa-discord
+            url: https://discord.gg/G2a7JWnQkP
+            iconcolor: "#5865F2"
+          - title: TAP (TACC Analysis Portal)
+            url: https://tap.tacc.utexas.edu
+            icon: fa-solid fa-link
+            iconcolor: black
+          - title: TACC CEP (Core Experience Portal)
+            url: https://cep.tacc.utexas.edu
+            icon: fa-solid fa-link
+            iconcolor: black
+            
+          
+
             
 
 general_schedule:
@@ -96,6 +120,8 @@ general_schedule:
     zoomlink: https://utexas.zoom.us/j/98974589325
     theme: Kick-Off
     events: 
+      - name: Omnibond's Project Eureka Overview
+        type: Training
       - name: Mentor Project Pitches
         type: Presentations
       - name: Team Formation
@@ -133,6 +159,8 @@ general_schedule:
           &nbsp;&nbsp; - Team Members <br>
           &nbsp;&nbsp; - Team Zoom Virtual Background <br>
           &nbsp;&nbsp; - Team Theme Song <br>
+      - name: GitHub Overview
+        type: Training
       
 
   - date: "2023-11-04T17:00(-04:00)"

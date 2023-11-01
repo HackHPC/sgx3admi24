@@ -94,6 +94,18 @@ preevent_schedule:
             icon: fa-brands fa-discord
             url: https://discord.gg/G2a7JWnQkP
             iconcolor: "#5865F2"
+          - title: UT Center for Pandemic Decision Science
+            url: https://www.centerforpandemicdecisionscience.org/
+            icon: fa-solid fa-link
+            iconcolor: black
+          - title: Safegraph
+            url: https://www.safegraph.com
+            icon: fa-solid fa-link
+            iconcolor: black 
+          - title: Safegraph Examples
+            url: https://www.safegraph.com/data-examples
+            icon: fa-solid fa-link
+            iconcolor: black  
           - title: TAP (TACC Analysis Portal)
             url: https://tap.tacc.utexas.edu
             icon: fa-solid fa-link
@@ -102,6 +114,11 @@ preevent_schedule:
             url: https://cep.tacc.utexas.edu
             icon: fa-solid fa-link
             iconcolor: black
+          - title: TACC Account Information Form
+            url: https://forms.gle/pCu9K9X5cC6seJpc8
+            icon: fa-solid fa-clipboard-question
+            iconcolor: purple
+          
             
           
 

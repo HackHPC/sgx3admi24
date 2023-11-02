@@ -53,6 +53,10 @@ preevent_schedule:
             icon: fa-regular fa-file-pdf
             url: "assets/slides/pre-event_training/Mentor_Training.pdf"
             iconcolor: red
+          - title: Session Video
+            url: https://youtu.be/8SZlGsgLZLk 
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
           - title: Discord Server
             icon: fa-brands fa-discord
             url: https://discord.gg/G2a7JWnQkP
@@ -85,6 +89,10 @@ preevent_schedule:
           - title: Session Slide Deck
             url: assets/slides/pre-event_training/SystemsOn-Boarding-Training.pdf
             icon: fa-regular fa-file-pdf
+            iconcolor: red
+          - title: Session Video
+            url: https://youtu.be/mWZ848kgz1s 
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
             iconcolor: red
           - title: GitHub
             url: https://github.com

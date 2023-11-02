@@ -122,6 +122,10 @@ preevent_schedule:
             url: https://cep.tacc.utexas.edu
             icon: fa-solid fa-link
             iconcolor: black
+          - title: Dataset Example Jupyter Notebook
+            url: assets/slides/pre-event_training/hpcinthecity-pandemics-dataset.ipynb
+            icon: fa-brands fa-python
+            iconcolor: orange
           - title: TACC Account Information Form
             url: https://forms.gle/pCu9K9X5cC6seJpc8
             icon: fa-solid fa-clipboard-question

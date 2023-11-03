@@ -8,7 +8,7 @@
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-#    zoomlink: https://utexas.zoom.us/j/98974589325
+#    zoomlink: https://utexas.zoom.us/j/97438722532
 #    theme: Event Overview and Training
 #    events: 
 #      - name: GitHub/GitHub Pages Training
@@ -146,7 +146,7 @@ general_schedule:
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    zoomlink: https://utexas.zoom.us/j/98974589325
+    zoomlink: https://utexas.zoom.us/j/97438722532
     theme: Kick-Off
     events: 
       - name: Omnibond's Project Eureka Overview
@@ -176,7 +176,7 @@ general_schedule:
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    zoomlink: https://utexas.zoom.us/j/98974589325
+    zoomlink: https://utexas.zoom.us/j/97438722532
     theme: Day 2 Morning Check-in
     events: 
       - name: Team Introductions
@@ -201,7 +201,7 @@ general_schedule:
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    zoomlink: https://utexas.zoom.us/j/98974589325
+    zoomlink: https://utexas.zoom.us/j/97438722532
     theme: Day 2 Evening Check-in
     events: 
       - name: Team Goals and Plan
@@ -228,7 +228,7 @@ general_schedule:
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    zoomlink: https://utexas.zoom.us/j/98974589325
+    zoomlink: https://utexas.zoom.us/j/97438722532
     theme: Day 3 Afternoon Check-in
     events: 
       - name: Team Progress
@@ -250,7 +250,7 @@ general_schedule:
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    zoomlink: https://utexas.zoom.us/j/98974589325
+    zoomlink: https://utexas.zoom.us/j/97438722532
     theme: Final Check-in Day 4
     events: 
       - name: Voltron Data - Fernanda Foertter
@@ -290,7 +290,7 @@ general_schedule:
 #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
 #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
 #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    zoomlink: https://utexas.zoom.us/j/98974589325
+    zoomlink: https://utexas.zoom.us/j/97438722532
     theme: Day 5 Final Presentations
     events: 
       - name: Final Presentations

@@ -151,9 +151,14 @@ general_schedule:
     events: 
       - name: Omnibond's Project Eureka Overview
         type: Training
+        links:
+          - title: Project Eureka Link
+            url: https://ec2-3-15-1-186.us-east-2.compute.amazonaws.com
+            icon: fa-solid fa-link
+            iconcolor: black
       - name: Mentor Project Pitches
         type: Presentations
-      - name: Team Formation
+      - name: Mentor Pitches and Team Formation
         links:
           - title: Slide Deck
             icon: fa-regular fa-file-pdf
@@ -163,10 +168,6 @@ general_schedule:
             icon: "fab fa-youtube" #fa-regular fa-file-pdf
             iconcolor: red
             url: "https://youtu.be/0AdXPRj36lc"
-          - title: Project Eureka Link
-            url: https://ec2-3-15-1-186.us-east-2.compute.amazonaws.com
-            icon: fa-solid fa-link
-            iconcolor: black
           - title: SGX3 2024 Summer Coding Institute Applicaiton
             url: https://sciencegateways.org/coding_institute
             icon: fa-solid fa-link

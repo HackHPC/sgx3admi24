@@ -9,6 +9,28 @@
   <br>
   <h1 id="sessions" style="color:#013366;"><i class="fas fa-chalkboard-teacher" style="font-size: x-large;"></i> Sessions:</h1>
   <ol class="presentations-list">
+    {% if site.data.schedule.preevent_schedule %}
+    {% for _ in site.data.schedule.preevent_schedule %}
+         
+    
+        {% for event in _.events %}
+        {% if event.links %}
+      <li>
+        [{{ _.date}} ] <strong>{{ event.name }}</strong>
+        <ul>
+        {% for link in event.links %}
+          <li>
+              <a href="{{ link.url }}">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+        {% endif %}
+        </ul>
+      </li>
+      
+    {% endfor %}
+    {% endfor %}
+    {% endif %}
+    
     {% for _ in site.data.schedule.general_schedule %}
          
     

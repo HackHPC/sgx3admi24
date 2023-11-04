@@ -171,9 +171,10 @@ brand_color: "#68c18c" #"#1a8e42"
 # this and add the path to the pages in order as they should show up
 header_pages:
   #- index.html
-  - organizers.html
-  - resources.html
+  - teams.html
   - schedule.html
+  - resources.html
+  - organizers.html
   #- about.md
 
 # Page default value

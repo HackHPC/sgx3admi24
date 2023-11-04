@@ -160,7 +160,7 @@ general_schedule:
         type: Presentations
       - name: Mentor Pitches and Team Formation
         links:
-          - title: Slide Deck
+          - title: Session Slide Deck
             icon: fa-regular fa-file-pdf
             url: "assets/slides/event/Kick-Off.pdf"
             iconcolor: red
@@ -199,6 +199,11 @@ general_schedule:
           &nbsp;&nbsp; - Team Members <br>
           &nbsp;&nbsp; - Team Zoom Virtual Background <br>
           &nbsp;&nbsp; - Team Theme Song <br>
+        links:
+          - title: Session Slide Deck
+            url: assets/slides/event/Day2-MorningCheckin-TeamIntroductions.pdf
+            icon: fa-regular fa-file-pdf
+            iconcolor: red
       - name: GitHub Overview
         type: Training
       

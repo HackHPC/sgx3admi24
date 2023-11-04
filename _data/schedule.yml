@@ -154,11 +154,11 @@ general_schedule:
       - name: Mentor Project Pitches
         type: Presentations
       - name: Team Formation
-#        links:
-#          - title: Slide Deck
-#            icon: fa-regular fa-file-pdf
-#            url: "assets/slides/Team Introductions.pdf"
-#            iconcolor: red
+        links:
+          - title: Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/event/Kick-Off.pdf"
+            iconcolor: red
 #          - title: YouTube Video
 #            icon: "fab fa-youtube" #fa-regular fa-file-pdf
 #            iconcolor: red

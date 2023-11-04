@@ -168,7 +168,7 @@ general_schedule:
             icon: "fab fa-youtube" #fa-regular fa-file-pdf
             iconcolor: red
             url: "https://youtu.be/0AdXPRj36lc"
-          - title: SGX3 2024 Summer Coding Institute Applicationß
+          - title: SGX3 2024 Summer Coding Institute Application
             url: https://sciencegateways.org/coding_institute
             icon: fa-solid fa-link
             iconcolor: black

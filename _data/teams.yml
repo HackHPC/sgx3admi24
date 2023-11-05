@@ -95,6 +95,10 @@ teams:
     <ol>
   #emojicode: {}
   links:
+    - name: GitHub Repo
+      url: https://github.com/SirMore/REDWARN
+      icon: "fa-brands fa-github"
+      iconcolor: black
     - name: Team Introduction
       url: teams/redwarn/redwarn-intro.pdf
       icon: fa-regular fa-file-pdf

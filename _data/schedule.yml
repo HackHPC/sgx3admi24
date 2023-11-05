@@ -264,18 +264,47 @@ general_schedule:
     zoomlink: https://utexas.zoom.us/j/97438722532
     theme: Day 3 Afternoon Check-in
     events: 
+      - name: SGX3 Opportunities
+        type: Presentation
+        links: 
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: assets/slides/event/SGX3-Overview.pdf
+            iconcolor: red
+          - title: SGX3
+            url: https://sciencegateways.org
+            icon: fa-solid fa-link
+            iconcolor: purple
+          - title: SGX3 2024 Summer Coding Institute Application
+            url: https://sciencegateways.org/coding_institute
+            icon: fa-solid fa-link
+            iconcolor: purple
+          - title: SGX3 Summer 2024 Internship Application        
+            url: https://sciencegateways.org/internships
+            icon: fa-solid fa-link
+            iconcolor: purple
       - name: Team Progress
         type: Presentations 
         description: >
           1-Slide/1-Minute with: <br>
           &nbsp;&nbsp; - Team Name <br>
-          &nbsp;&nbsp; - Current Status <br>
-          &nbsp;&nbsp; - At least 3 tasks to be accomplished by morning session
+          &nbsp;&nbsp; - Updated Goal(s) <br>
+          &nbsp;&nbsp; - Updated Project Plan <br>
+          &nbsp;&nbsp; - Technology/Resources in Use
         links:
           - title: Poster Template
             icon: fa-regular fa-file-powerpoint
             url: assets/slides/event/hpcinthecity-pandemics-poster_template.pptx
             iconcolor: darkred
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: assets/slides/event/Day3-AfternoonCheckin-TechnologyandProgress.pdf
+            iconcolor: red
+          - title: Posit Cloud (formerly RStudio Cloud)      
+            url: https://posit.cloud
+            icon: fa-solid fa-link
+            iconcolor: black
+          
 
 
 

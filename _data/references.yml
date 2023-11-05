@@ -14,8 +14,18 @@ computinghosting:
   url: https://tap.tacc.utexas.edu
 - name: Texas Advanced Computing Center
   url: https://www.tacc.utexas.edu
-- name: Amazon Web Services
-  url: https://aws.amazon.com
+- name: Amazon Web Services (AWS)
+  url: https://aws.amazon.com         
+- name: TACC CEP (Core Experience Portal)
+  url: https://cep.tacc.utexas.edu
+- name: Omnibond's CloudyCluster
+  url: https://cloudycluster.com
+- name: DesignSafe-CI
+  url: https://www.designsafe-ci.org
+- name: Microsoft Azure
+  url: https://portal.azure.com
+- name: Google Cloud Platform
+  url: https://cloud.google.com
 
 references:
 - name: GitHub Markdown Reference
@@ -47,6 +57,7 @@ references:
 - name: Google Bard
   url: https://bard.google.com/
 
+
 codeplatforms:
 - name: "Google Colab"
   url: https://colab.research.google.com/
@@ -64,6 +75,8 @@ codeplatforms:
   url: https://github.com/codespaceshttps://docs.github.com/en/codespaces/getting-started/quickstart
 - name: Shutting down / Stopping Codespaces
   url: https://docs.github.com/en/codespaces/developing-in-codespaces/stopping-and-starting-a-codespace
+- name: Posit Cloud (formerly RStudio Cloud)      
+  url: https://posit.cloud
 
 
 uiuxdesign:

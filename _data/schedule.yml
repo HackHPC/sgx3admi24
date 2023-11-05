@@ -271,6 +271,11 @@ general_schedule:
           &nbsp;&nbsp; - Team Name <br>
           &nbsp;&nbsp; - Current Status <br>
           &nbsp;&nbsp; - At least 3 tasks to be accomplished by morning session
+        links:
+          - title: Poster Template
+            icon: fa-regular fa-file-powerpoint
+            url: assets/slides/event/hpcinthecity-pandemics-poster_template.pptx
+            iconcolor: darkred
 
 
 

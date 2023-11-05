@@ -155,14 +155,18 @@ teams:
     <ol>
   #emojicode: {}
   links:
+    - name: GitHub Repo
+      url: https://github.com/LaJoshua/Mobility-and-Social-Vulnerability-Index
+      icon: "fa-brands fa-github"
+      iconcolor: black
     - name: Team Introduction 
       url: teams/rendermages/rendermagesintro.pdf
       icon: fa-regular fa-file-pdf
-      iconcolor: red
+      iconcolor: red  
     - name: Team Goals and Plan
       url: teams/rendermages/Day2-RenderMagesEveningCheckin-TeamGoalsandProjectPlan.pdf
       icon: fa-regular fa-file-pdf
-      iconcolor: 
+      iconcolor: red
   images:
     - name: Team Introduction
       imagelink: teams/rendermages/RenderMages.png

@@ -43,10 +43,17 @@ teams:
       url: teams/partyanimals/partyanimals-intro.pdf
       icon: fa-regular fa-file-pdf
       iconcolor: red
+    - name: Team Goals and Plan
+      url: teams/partyanimals/Day2-PartyAnimalsEveningCheckin-TeamGoalsandProjectPlan.pdf
+      icon: fa-regular fa-file-pdf
+      iconcolor: red
   images:
     - name: Team Introduction
       url: teams/partyanimals/partyanimals-intro.pdf
       imagelink: teams/partyanimals/PartyAnimalsIntro.png
+    - name: Team Goals and Plan
+      url: teams/partyanimals/Day2-PartyAnimalsEveningCheckin-TeamGoalsandProjectPlan.pdf
+      imagelink: teams/partyanimals/Day2-EveningCheckin-TeamGoalsandProjectPlan-partyanimals.png
 
 
 
@@ -86,18 +93,23 @@ teams:
       <li>Track Community Sentiment on Pandemic Policy’s </li>
       <li>Estimate Community Opinion and The accuracy based on Real World Responses</li
     <ol>
-
   #emojicode: {}
   links:
     - name: Team Introduction
       url: teams/redwarn/redwarn-intro.pdf
       icon: fa-regular fa-file-pdf
       iconcolor: red
+    - name: Team Goals and Plan
+      url: teams/redwarn/Day2-REDWARN-EveningCheckin-TeamGoalsandProjectPlan.pdf
+      icon: fa-regular fa-file-pdf
+      iconcolor: red
   images:
     - name: Team Introduction
       url: teams/redwarn/redwarn-intro.pdf
       imagelink: teams/redwarn/RedwarnIntro.png
-
+    - name: Team Goals and Plan
+      url: teams/redwarn/Day2-REDWARN-EveningCheckin-TeamGoalsandProjectPlan.pdf
+      imagelink: teams/redwarn/Day2-EveningCheckin-TeamGoalsandProjectPlan-redwarn.png
 
 - teamname: Render Mages
   mentor:
@@ -143,7 +155,14 @@ teams:
       url: teams/rendermages/rendermagesintro.pdf
       icon: fa-regular fa-file-pdf
       iconcolor: red
+    - name: Team Goals and Plan
+      url: teams/rendermages/Day2-RenderMagesEveningCheckin-TeamGoalsandProjectPlan.pdf
+      icon: fa-regular fa-file-pdf
+      iconcolor: 
   images:
     - name: Team Introduction
       imagelink: teams/rendermages/RenderMages.png
       url: teams/rendermages/rendermagesintro.pdf
+    - name: Team Goals and Plan
+      url: teams/rendermages/Day2-RenderMagesEveningCheckin-TeamGoalsandProjectPlan.pdf
+      imagelink: teams/rendermages/Day2-EveningCheckin-TeamGoalsandProjectPlan-renderimages.png

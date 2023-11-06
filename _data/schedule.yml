@@ -204,6 +204,10 @@ general_schedule:
             url: assets/slides/event/Day2-MorningCheckin-TeamIntroductions.pdf
             icon: fa-regular fa-file-pdf
             iconcolor: red
+          - title: Session Video
+            url: https://youtu.be/aG9EVY_j3ic
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
       - name: GitHub Overview
         type: Training
         links:
@@ -244,6 +248,10 @@ general_schedule:
             icon: fa-regular fa-file-pdf
             url: assets/slides/event/Day2-EveningCheckin-TeamGoalsandProjectPlan.pdf
             iconcolor: red
+          - title: Session Video
+            url: https://youtu.be/DETmoO0GQvQ
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
       - name: DAYLIGHT SAVINGS TIME CHANGE REMINDER!!!
 #        #type: Presentation 
 #        description: >
@@ -270,6 +278,10 @@ general_schedule:
           - title: Session Slide Deck
             icon: fa-regular fa-file-pdf
             url: assets/slides/event/SGX3-Overview.pdf
+            iconcolor: red
+          - title: Session Video
+            url: https://youtu.be/4CLBz-ZFhx4
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
             iconcolor: red
           - title: SGX3
             url: https://sciencegateways.org

@@ -1,0 +1,415 @@
+#preevent_schedule:
+## date time format example '2012-01-26T13:51:50.417-04:00' 
+#  - date: "2023-06-22T13:30(-04:00)"
+#    #session: Morning #Evening #Afternoon
+#    length: 02:00
+#    timezone: EDT
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+#    zoomlink: https://utexas.zoom.us/j/97438722532
+#    theme: Event Overview and Training
+#    events: 
+#      - name: GitHub/GitHub Pages Training
+#        #type: Presentation
+#        links:
+#          - title: Slide Deck
+#            icon: fa-regular fa-file-pdf
+#            iconcolor: red
+#            url: "assets/slides/pre-event_training/GitHub-and-Github-Pages.pdf"
+#          - title: YouTube Video
+#            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+#            iconcolor: red
+#            url: "https://youtu.be/UzzKBQmiLsU"
+#  #
+#
+#
+
+### Add link to ics file that has all other ics files merged
+
+mergedicsfile: https://hackhpc.github.io/hpcinthecity23/assets/ics_files/HPCintheCity-Pandemics-ALLEVENTS.ics
+
+
+preevent_schedule:
+
+## date time format example '2012-01-26T13:51:50.417-04:00' 
+  - date: "2023-10-27T12:00(-04:00)"
+    session: Afternoon
+#    length: 02:00
+    timezone: CDT
+    icsfile: assets/ics_files/HPCintheCity-Pandemics-Mentors_Overview.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+    zoomlink: https://utexas.zoom.us/j/93369505464
+    theme: Mentors Overview
+    events: 
+      - name: Mentors and Staff Only Meeting
+        type: Training
+        links:
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/pre-event_training/Mentor_Training.pdf"
+            iconcolor: red
+          - title: Session Video
+            url: https://youtu.be/8SZlGsgLZLk 
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
+          - title: Discord Server
+            icon: fa-brands fa-discord
+            url: https://discord.gg/G2a7JWnQkP
+            iconcolor: "#5865F2"
+          - title: Zoom Background
+            icon: "fa-solid fa-file-image"
+            url: assets/imgs/HPCintheCity23-ZoomBG2a.png
+            iconcolor: black
+          - title: PPTX Slide Template
+            icon: "fa-solid fa-file-powerpoint"
+            url: assets/slides/pre-event_training/hpcinthecity-slidedeck-template.pptx
+            iconcolor: red
+
+
+  - date: "2023-11-1T17:00(-04:00)"
+    session: Afternoon
+#    length: 02:00
+    timezone: CDT
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Systems_On-Boarding_and_Training.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+    zoomlink: https://utexas.zoom.us/j/92944333114
+    theme: Systems On-Boarding Training
+    events: 
+      - name: TACC On-Boarding and Dataset Access
+        type: Training
+        links: 
+          - title: Session Slide Deck
+            url: assets/slides/pre-event_training/SystemsOn-Boarding-Training.pdf
+            icon: fa-regular fa-file-pdf
+            iconcolor: red
+          - title: Session Video
+            url: https://youtu.be/mWZ848kgz1s 
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
+          - title: GitHub
+            url: https://github.com
+            icon: fa-solid fa-link
+            iconcolor: black
+          - title: Discord Server
+            icon: fa-brands fa-discord
+            url: https://discord.gg/G2a7JWnQkP
+            iconcolor: "#5865F2"
+          - title: UT Center for Pandemic Decision Science
+            url: https://www.centerforpandemicdecisionscience.org/
+            icon: fa-solid fa-link
+            iconcolor: black
+          - title: Safegraph
+            url: https://www.safegraph.com
+            icon: fa-solid fa-link
+            iconcolor: black 
+          - title: Safegraph Examples
+            url: https://www.safegraph.com/data-examples
+            icon: fa-solid fa-link
+            iconcolor: black  
+          - title: TAP (TACC Analysis Portal)
+            url: https://tap.tacc.utexas.edu
+            icon: fa-solid fa-link
+            iconcolor: black
+          - title: TACC CEP (Core Experience Portal)
+            url: https://cep.tacc.utexas.edu
+            icon: fa-solid fa-link
+            iconcolor: black
+          - title: Dataset Example Jupyter Notebook
+            url: assets/slides/pre-event_training/hpcinthecity-pandemics-dataset.ipynb
+            icon: fa-brands fa-python
+            iconcolor: orange
+          - title: TACC Account Information Form
+            url: https://forms.gle/pCu9K9X5cC6seJpc8
+            icon: fa-solid fa-clipboard-question
+            iconcolor: purple
+          
+            
+          
+
+            
+
+general_schedule:
+  - date: "2023-11-03T17:00(-04:00)"
+    session: Evening
+#    length: 02:00
+    timezone: CDT
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Kick-Off.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+    zoomlink: https://utexas.zoom.us/j/97438722532
+    theme: Kick-Off
+    events: 
+      - name: Omnibond's Project Eureka Overview
+        type: Training
+        links:
+          - title: Project Eureka Link
+            url: https://ec2-3-15-1-186.us-east-2.compute.amazonaws.com
+            icon: fa-solid fa-link
+            iconcolor: black
+      - name: Mentor Project Pitches
+        type: Presentations
+      - name: Mentor Pitches and Team Formation
+        links:
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/event/Kick-Off.pdf"
+            iconcolor: red
+          - title: YouTube Video
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
+            url: "https://youtu.be/0AdXPRj36lc"
+          - title: SGX3 2024 Summer Coding Institute Application
+            url: https://sciencegateways.org/coding_institute
+            icon: fa-solid fa-link
+            iconcolor: black
+          - title: SGX3 Summer 2024 Internship Application        
+            url: https://sciencegateways.org/internships
+            icon: fa-solid fa-link
+            iconcolor: black
+ 
+  
+  - date: "2023-11-04T10:30(-04:00)"
+    session: Morning
+#    length: 02:00
+    timezone: CDT
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Day_2_Checkin-Morning.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+    zoomlink: https://utexas.zoom.us/j/97438722532
+    theme: Day 2 Morning Check-in
+    events: 
+      - name: Team Introductions
+        type: Presentations 
+        description: >
+          1-Slide/1-Minute with: <br>
+          &nbsp;&nbsp; - Team Name <br>
+          &nbsp;&nbsp; - Team Mentor(s) <br>
+          &nbsp;&nbsp; - Team Members <br>
+          &nbsp;&nbsp; - Team Zoom Virtual Background <br>
+          &nbsp;&nbsp; - Team Theme Song <br>
+        links:
+          - title: Session Slide Deck
+            url: assets/slides/event/Day2-MorningCheckin-TeamIntroductions.pdf
+            icon: fa-regular fa-file-pdf
+            iconcolor: red
+          - title: Session Video
+            url: https://youtu.be/aG9EVY_j3ic
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
+      - name: GitHub Overview
+        type: Training
+        links:
+          - title: Github Overview Video
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
+            url: "https://youtu.be/k_sT1ccwwnc"
+      - name: Safegraph Overview
+        type: Training  
+        links:
+          - title: Safgraph Overview Video
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
+            url: "https://youtu.be/Nfjms04JWqI"
+      
+
+  - date: "2023-11-04T17:00(-04:00)"
+    session: Evening #Morning
+#    length: 02:00
+    timezone: CDT
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Day_2_Checkin-Afternoon.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+    zoomlink: https://utexas.zoom.us/j/97438722532
+    theme: Day 2 Evening Check-in
+    events: 
+      - name: Team Goals and Plan
+        type: Presentations 
+        description: >
+          2-Slides/2-Minutes with: <br>
+          &nbsp;&nbsp; - Team Name <br>
+          &nbsp;&nbsp; - Goal(s) the team wants to accomplish 
+          &nbsp;&nbsp; - Project Plan with team members linked to roles and at least five (5) tasks needed to accomplish those goals
+        links:
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: assets/slides/event/Day2-EveningCheckin-TeamGoalsandProjectPlan.pdf
+            iconcolor: red
+          - title: Session Video
+            url: https://youtu.be/DETmoO0GQvQ
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
+      - name: DAYLIGHT SAVINGS TIME CHANGE REMINDER!!!
+#        #type: Presentation 
+#        description: >
+#          1-Slide/1-Minute with: <br>
+#          &nbsp;&nbsp; - Team Name <br>
+#          &nbsp;&nbsp; - Current Status#
+
+
+  - date: "2023-11-05T14:00(-04:00)"
+    session: Afternoon
+#    length: 02:00
+    timezone: CST
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Day_3_Checkin-Afternoon.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+    zoomlink: https://utexas.zoom.us/j/97438722532
+    theme: Day 3 Afternoon Check-in
+    events: 
+      - name: SGX3 Opportunities
+        type: Presentation
+        links: 
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: assets/slides/event/SGX3-Overview.pdf
+            iconcolor: red
+          - title: Session Video
+            url: https://youtu.be/4CLBz-ZFhx4
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
+          - title: SGX3
+            url: https://sciencegateways.org
+            icon: fa-solid fa-link
+            iconcolor: purple
+          - title: SGX3 2024 Summer Coding Institute Application
+            url: https://sciencegateways.org/coding_institute
+            icon: fa-solid fa-link
+            iconcolor: purple
+          - title: SGX3 Summer 2024 Internship Application        
+            url: https://sciencegateways.org/internships
+            icon: fa-solid fa-link
+            iconcolor: purple
+      - name: Team Progress
+        type: Presentations 
+        description: >
+          1-Slide/1-Minute with: <br>
+          &nbsp;&nbsp; - Team Name <br>
+          &nbsp;&nbsp; - Updated Goal(s) <br>
+          &nbsp;&nbsp; - Updated Project Plan <br>
+          &nbsp;&nbsp; - Technology/Resources in Use
+        links:
+          - title: Poster Template
+            icon: fa-regular fa-file-powerpoint
+            url: assets/slides/event/hpcinthecity-pandemics-poster_template.pptx
+            iconcolor: darkred
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: assets/slides/event/Day3-AfternoonCheckin-TechnologyandProgress.pdf
+            iconcolor: red
+          - title: Posit Cloud (formerly RStudio Cloud)      
+            url: https://posit.cloud
+            icon: fa-solid fa-link
+            iconcolor: black
+          
+
+
+
+  - date: "2023-11-06T17:00(-04:00)"
+    session: Evening #Morning
+#    length: 02:00
+    timezone: CST
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Day_4_Checkin-Afternoon.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+    zoomlink: https://utexas.zoom.us/j/97438722532
+    theme: Final Check-in Day 4
+    events: 
+      - name: Voltron Data - Fernanda Foertter
+        type: Presentations
+        links:
+          - title: Voltron Data
+            url: https://voltrondata.com
+            icon: fa-solid fa-link
+            iconcolor: black 
+          - title: Linkedin
+            url: https://www.linkedin.com/in/foertter/
+            icon: "fa-brands fa-linkedin"
+            iconcolor: "#0077b5" 
+      - name: Team Progress
+        type: Presentations 
+        description: >
+          Deliverables Reminder: <br>
+          &nbsp;&nbsp; - Github Repository with: <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - README.md with project description<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Source code Including Comments<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Presentation (PDF)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Team members with pictures<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Use of technology in the project<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Project impact to the community<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Poster (+5pts Judging Score) <br>
+        links:
+          - title: Poster Template
+            icon: fa-regular fa-file-powerpoint
+            url: assets/slides/event/hpcinthecity-pandemics-poster_template.pptx
+            iconcolor: darkred
+
+
+
+  - date: "2023-11-07T17:00(-04:00)"
+    session: Evening #Morning
+#    length: 02:00
+    timezone: CST
+    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Day_5_Final_Presentations.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+    zoomlink: https://utexas.zoom.us/j/97438722532
+    theme: Day 5 Final Presentations
+    events: 
+      - name: Judges Overview (4:30pmCT)
+        type: Training
+      - name: Final Presentations
+        type: Presentations
+        description: >
+          Deliverables: <br>
+          &nbsp;&nbsp; - Github Repository with: <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - README.md with project description<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Source code Including Comments<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Presentation (PDF)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Team members with pictures<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Use of technology in the project<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Project impact to the community<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Poster (+5pts Judging Score) <br>
+#          <br>
+#          <strong>Awards:</strong><br>
+#          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Judges Choice Award 2nd Place</em> - <strong><a href="https://hackhpc.github.io/admi23/teams.html#The%20Data%20Miners" style="color: goldenrod;">The Data Miners</a></strong><br>
+#          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Judges Choice Award 1st Place</em> - <strong><a href="https://hackhpc.github.io/admi23/teams.html#Bug%20Busters" style="color: goldenrod;">Bug Busters</a></strong><br>
+#          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>SGX3 UX / UI Award </em> - <strong><a href="https://hackhpc.github.io/admi23/teams.html#CodeWarriors" style="color: goldenrod;">CodeWarriors</a></strong><br>
+        links:
+          - title: Post Event Survey
+            url: https://forms.gle/BnKKpFFLCk4A6hvT8
+            icon: fa-solid fa-clipboard-question
+            iconcolor: purple
+        
+#          - title: Slide Deck
+#            icon: fa-regular fa-file-pdf
+#            url: "assets/slides/Final_Presentations.pdf"
+#          - title: YouTube Video
+#            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+#            iconcolor: red
+#            url: "https://youtu.be/m9Rz01V_1lA"
+#          
+#          #
+#
+
+#  
+#  

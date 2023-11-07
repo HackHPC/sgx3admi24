@@ -364,6 +364,10 @@ general_schedule:
             url: https://www.youtube.com/playlist?list=PLk7G3_iq2ijR1331qCYx04MADFmqyaM-L
             icon: "fab fa-youtube" #fa-regular fa-file-pdf
             iconcolor: red
+          - title: Viewer's Choice Ballot
+            url: https://forms.gle/67Xjoie9oshrfnGc8
+            icon: fa-solid fa-clipboard-question
+            iconcolor: purple
 
           
 
@@ -401,6 +405,10 @@ general_schedule:
 #          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Viewer's Choice Award 1st Place</em> - <strong><a href="https://hackhpc.github.io/admi23/teams.html#Bug%20Busters" style="color: goldenrod;">Bug Busters</a></strong><br>
 #          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Impact Award </em> - <strong><a href="https://hackhpc.github.io/admi23/teams.html#CodeWarriors" style="color: goldenrod;">CodeWarriors</a></strong><br>
         links:
+          - title: Viewer's Choice Ballot
+            url: https://forms.gle/67Xjoie9oshrfnGc8
+            icon: fa-solid fa-clipboard-question
+            iconcolor: purple
           - title: Post Event Survey
             url: https://forms.gle/BnKKpFFLCk4A6hvT8
             icon: fa-solid fa-clipboard-question

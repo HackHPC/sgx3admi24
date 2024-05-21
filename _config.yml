@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "HPC in the City: Pandemics"
+title: "SGX3's HackHPC@ADMI24"
 email: "schack@hackhcp.org"
 author: HackHPC
 

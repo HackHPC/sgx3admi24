@@ -35,7 +35,7 @@ instagram_username: hack_hpc
 linkedin_username: "https://www.linkedin.com/groups/8859728/"
 github_username: HackHPC
 youtube_page: "https://www.youtube.com/@hackhpc2069"
-#registration_link: "https://forms.gle/jsjdXQkWh5zmf95P9"
+registration_link: "https://forms.gle/Z2T4WokW4HxTHhJS8"
 # medium_username: lorem_ipsum
 # medium_url: lorem_ipsum.medium.com
 # gplus_username:  lorem_ipsum
@@ -61,8 +61,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/sgx3admi24" # the subpath of your site, e.g. /blog
 url: "https://hackhpc.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "favicon.ico" #"assets/favicon.ico" # the favicon for your site
-headericon: "assets/imgs/hackhpclogo-peopleonly-orange.svg" 
-#eventbadge: "assets/imgs/FacultyHackbadge.svg" # if the event has some type of logo or badge to be placed on pages inlew of header
+headericon: "photos/branding/admi24_hackathon_logo.svg" #"assets/imgs/hackhpclogo-peopleonly-orange.svg" 
+eventbadge: "photos/branding/admi24_hackathon_logo.svg" # if the event has some type of logo or badge to be placed on pages inlew of header
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this

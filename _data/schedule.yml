@@ -159,6 +159,11 @@ general_schedule:
       
       - name: Hackathon Overview
         type: Presentations
+        links:
+          - title: Omnibond's Project Eureka
+            url: https://croakerzoisitereddeer.cloudycluster.net/ 
+            icon: fa-solid fa-link
+            iconcolor: orange
       - name: Mentor Project Pitches
         type: Presentations
       - name: Team Formation

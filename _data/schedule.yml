@@ -68,6 +68,10 @@ general_schedule:
         description: >
           Overview of FacultyHack 23 project intergration into the classroom.
         links:
+          - title: Bernie Boscoe LinkedIn
+            url: https://www.linkedin.com/in/bernieboscoe/
+            icon: fa fa-linkedin #fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
           - title: Cassava Disease - Kaggle
             url: https://www.kaggle.com/c/cassava-disease
             icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube

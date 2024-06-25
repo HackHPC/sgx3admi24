@@ -87,7 +87,11 @@ general_schedule:
           - title: Zenodo
             url: https://about.zenodo.org
             icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
-            iconcolor: bl
+            iconcolor: blue
+          - title: Science Gateways Catalog
+            url: https://sciencegateways.org/resources/browse
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
       - name: HPC-ED API Overview
         type: Training
       - name: Project Work

@@ -96,6 +96,11 @@ general_schedule:
             url: https://www.designsafe-ci.org
             icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
             iconcolor: blue
+          - title: United States Research Software Engineer Association
+            url: https://us-rse.org
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
+
       - name: HPC-ED API Overview
         type: Training
       - name: Project Work

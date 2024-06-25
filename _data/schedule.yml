@@ -104,6 +104,10 @@ general_schedule:
             url: https://us-rse.org
             icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
             iconcolor: blue
+          - title: SDSC Training Catalog
+            url: https://www.sdsc.edu/education_and_training/training_catalog.html
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
 
       - name: HPC-ED API Overview
         type: Training

@@ -134,7 +134,7 @@ teams:
       chenry123@rams.wssu.edu]
   themesong: "https://youtu.be/s4nt8M85pyE?si=7tXLEFQDYB-vhohD"
   themesongname: "Greek Mythology Music - Pandora’s Box"
-  zoombackground: {}
+  #zoombackground: {}
   projecturl: {}
   projectgoals: >
     <br> &#8226; Set Up Flask Project
@@ -179,7 +179,7 @@ teams:
       lisharamontn@gmail.com]
   themesong: "https://uppbeat.io/track/monument-music/mellifluous-mirage"
   themesongname: "Monument Music - Melifluous-Mirage"
-  zoombackground: {}
+  #zoombackground: {}
   projecturl: {}
   projectgoals: >
     <br> &#8226; Create a user-friendly website template for institutions to store and query training resources that don’t use a CLI

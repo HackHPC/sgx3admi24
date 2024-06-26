@@ -95,6 +95,7 @@ teams:
     <br> &#8226; Connect a database to the website that stores the training resources and supports the CRUD operations
     <br> &#8226; Allow a user to download a JSON file for a given training resource returned from a search query
   #emojicode: {}
+  targeturl: https://hpc-ed.github.io
   awards: ['Best Team Project Plan']
   links:
     - name: "HPC-ED API"
@@ -136,6 +137,7 @@ teams:
   themesongname: "Greek Mythology Music - Pandora’s Box"
   #zoombackground: {}
   projecturl: {}
+  targeturl: https://hpc-ed.github.io
   projectgoals: >
     <br> &#8226; Set Up Flask Project
     <br> &#8226; Create the Data Entry Form
@@ -186,6 +188,7 @@ teams:
     <br> &#8226; Connect a database to the website that stores the training resources and supports the CRUD operations
     <br> &#8226; Allow a user to download a JSON file for a given training resource returned from a search query
 
+  targeturl: https://hpc-ed.github.io
   #emojicode: {}
   awards: ['Best Team Introduction']
   links:

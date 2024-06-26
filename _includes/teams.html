@@ -24,14 +24,14 @@
           <br>
           {% endif %}
          
-          
+          {% if team.targeturl %}
+       <a  href="{{ team.targeturl }}"><i style="color: black;" class="fas fa-bullseye"></i> Target Portal: {{ team.targeturl }} </a><br>
+       
+       {% endif %}
           <strong>Project Goal(s):</strong> {{ team.projectgoals }}
        {% endif %}
        
-       {% if team.targeturl %}
-       <a style="margin-left: 15px;" href="{{ team.targeturl }}"><i style="color: black;" class="fas fa-bullseye"></i> Target Portal: {{ team.targeturl }} </a><br>
-       <br>
-       {% endif %}
+       
       </p>
         <div style="display:flex;">
         

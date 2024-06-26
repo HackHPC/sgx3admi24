@@ -143,7 +143,7 @@ general_schedule:
     zoomlink: https://us06web.zoom.us/j/88194414177?pwd=uvRllb9xu8nEAVqkRAO87UH1MP6cEa.1
     theme: Day 3 Check-in
     events: 
-      - name: Team Progress
+      - name: Team Progress - Morning Session
         type: Presentations 
         description: >
           1-Slide/1-Minute with: <br>
@@ -152,6 +152,11 @@ general_schedule:
           &nbsp;&nbsp; - Updated Project Plan <br>
           &nbsp;&nbsp; - Technology/Resources in Use
           &nbsp;&nbsp; - Bottlenecks / Issues / Concerns
+        links:
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/event/SGX3ADMI24-Day3-Checkin-Morning.pdf"
+            iconcolor: red
       - name: Project Work
         type: Hacking 
           

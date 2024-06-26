@@ -152,8 +152,8 @@ teams:
       iconcolor: red
   images:
     - name: Team Introduction
-      url: "teams/pandoras_programmers/TeamIntro.pdf"
-      imagelink: "teams/pandoras_programmers/TeamIntro.png"
+      url: "teams/pandoras_programmers/TeamIntro2.pdf"
+      imagelink: "teams/pandoras_programmers/TeamIntro2.png"
 
 - teamname: NLC<sup>2</sup>
   mentor:

@@ -177,7 +177,7 @@ general_schedule:
       - name: Project Work
         type: Hacking
 
-  - date: "2024-06-28T12:30(-04:00)"
+  - date: "2024-06-28T13:30(-04:00)"
     session: Afternoon
     zoomlink: https://us06web.zoom.us/j/88194414177?pwd=uvRllb9xu8nEAVqkRAO87UH1MP6cEa.1
     theme: Day 5 Final Presentations
@@ -195,6 +195,7 @@ general_schedule:
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Team members with pictures<br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Use of technology in the project<br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Project impact to the community<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Poster <br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Poster (+5pts Judging Score) <br>
           <br>
   # <strong>Awards:</strong><br>
@@ -202,14 +203,14 @@ general_schedule:
   # &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Viewer's Choice Award</em> - <strong><a href="https://hackhpc.github.io/hpcinthecity23/teams.html#Render%20Mages" style="color: goldenrod;">Render Mages</a></strong><br>
   # &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Impact Award </em> - <strong><a href="https://hackhpc.github.io/hpcinthecity23/teams.html#REDWARN" style="color: goldenrod;">REDWARN</a></strong><br>
         links:
-        #  - title: Viewer's Choice Ballot
-        #    url: https://forms.gle/67Xjoie9oshrfnGc8
-        #    icon: fa-solid fa-clipboard-question
-        #    iconcolor: purple
-        #  - title: Post Event Survey
-        #    url: https://forms.gle/BnKKpFFLCk4A6hvT8
-        #    icon: fa-solid fa-clipboard-question
-        #    iconcolor: purple
+          - title: Viewer's Choice Ballot
+            url: https://forms.gle/PNS9shdxFph6s4D96
+            icon: fa-solid fa-clipboard-question
+            iconcolor: purple
+          - title: Post Event Survey
+            url: https://forms.gle/2Ah4eaPHAiK63vAd8
+            icon: fa-solid fa-clipboard-question
+            iconcolor: purple
         #  - title: YouTube Video (Live Stream)
         #    icon: "fab fa-youtube" #fa-regular fa-file-pdf
         #    iconcolor: red

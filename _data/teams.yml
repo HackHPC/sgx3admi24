@@ -98,6 +98,10 @@ teams:
   targeturl: https://hpc-ed.github.io
   awards: ['Best Team Project Plan']
   links:
+    - name: GitHub Repo
+      url: https://github.com/Aceentt/Data_Detectives
+      icon: "fa-brands fa-github"
+      iconcolor: black
     - name: "HPC-ED API"
       url: "https://hpc-ed.github.io"
       icon: "fa-solid fa-link"
@@ -144,6 +148,10 @@ teams:
     <br> &#8226; Use flask to create a webform to store the websites and push them to the HPC-ED website
   #emojicode: {}
   links:
+    - name: GitHub Repo
+      url: https://github.com/Chrishen08/PandorasProgrammers
+      icon: "fa-brands fa-github"
+      iconcolor: black
     - name: "HPC-ED API"
       url: "https://hpc-ed.github.io"
       icon: "fa-solid fa-link"
@@ -190,8 +198,12 @@ teams:
 
   targeturl: https://hpc-ed.github.io
   #emojicode: {}
-  awards: ['Best Team Introduction']
+  awards: ['Best Team Introduction','One-Day Progress Challenge']
   links:
+    - name: GitHub Repo
+      url: https://github.com/ChristianJohnsonL/SGX3-Hackathon-Project-2024
+      icon: "fa-brands fa-github"
+      iconcolor: black
     - name: "HPC-ED API"
       url: "https://hpc-ed.github.io"
       icon: "fa-solid fa-link"

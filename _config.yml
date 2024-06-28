@@ -86,7 +86,35 @@ card: summary_large_image
 seoimage: "photos/branding/ADMI24Hackathon-header-homeimage-withtext.png"
 
 
+# Deliverables
+deliverables: >
+  <strong>Deliverables:</strong> <br>
+          &nbsp;&nbsp; &#x2022; Github Repository with: <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; README.md with project description<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Source code Including Comments<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Presentation (PDF)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Team members with pictures<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Use of technology in the project<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Project impact to the Science Gateways community<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Poster <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Proof of poster submission to Gateways24 (+5pts Judging Score) <br>
 
+# Viewer's Choice Link
+viewerschoiceurl: https://forms.gle/PNS9shdxFph6s4D96
+
+# Team Trailers (YouTube Embed)
+#teamtrailers: >
+#  <iframe width="560" height="315"
+#  src="https://www.youtube.com/embed/videoseries?si=nMXdAm4Drtjj2HZM&amp;list=PLk7G3_iq2ijR1331qCYx04MADFmqyaM-L"
+#  title="YouTube video player" frameborder="0"
+#  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+#  allowfullscreen></iframe>
+
+# YouTube Live Stream for Final Presentations
+#livestreamurl: 
+
+# Post Event Survey Link
+posteventsurveyurl: https://forms.gle/2Ah4eaPHAiK63vAd8
 
 # Google analytics
 # google_analytics: [Tracking ID]

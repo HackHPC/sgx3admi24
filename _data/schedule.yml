@@ -198,10 +198,10 @@ general_schedule:
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Poster <br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Poster (+5pts Judging Score) <br>
           <br>
-  # <strong>Awards:</strong><br>
-  # &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Judges Choice Award Place</em> - <strong><a href="https://hackhpc.github.io/hpcinthecity23/teams.html#Party%20Animals" style="color: goldenrod;">Party Animals</a></strong><br>
-  # &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Viewer's Choice Award</em> - <strong><a href="https://hackhpc.github.io/hpcinthecity23/teams.html#Render%20Mages" style="color: goldenrod;">Render Mages</a></strong><br>
-  # &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Impact Award </em> - <strong><a href="https://hackhpc.github.io/hpcinthecity23/teams.html#REDWARN" style="color: goldenrod;">REDWARN</a></strong><br>
+          <strong>Awards:</strong><br>
+          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Judges Choice Award</em> - <strong><a href="https://hackhpc.github.io/sgx3admi24/teams.html#NLC%3Csup%3E2%3C/sup%3E" style="color: goldenrod;">NLC<sup>2</sup></a></strong><br>
+          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Viewer's Choice Award</em> - <strong><a href="https://hackhpc.github.io/sgx3admi24/teams.html#Data%20Detectives" style="color: goldenrod;">Data Detectives</a></strong><br>
+          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Best Mentor Team Introduction Trailer </em> - <strong><a href="https://hackhpc.github.io/sgx3admi24/teams.html#Data%20Detectives" style="color: goldenrod;">Reggie Kelley (Data Detectives) </a></strong><br>
         links:
           - title: Viewer's Choice Ballot
             url: https://forms.gle/PNS9shdxFph6s4D96

@@ -96,7 +96,7 @@ teams:
     <br> &#8226; Allow a user to download a JSON file for a given training resource returned from a search query
   #emojicode: {}
   targeturl: https://hpc-ed.github.io
-  awards: ['Best Team Project Plan']
+  awards: ['Best Team Project Plan','Best Introduction Trailer',"People's Choice Award"]
   links:
     - name: GitHub Repo
       url: https://github.com/Aceentt/Data_Detectives
@@ -114,6 +114,59 @@ teams:
     - name: Team Introduction
       url: "teams/data_detectives/TeamIntro.pdf"
       imagelink: "teams/data_detectives/TeamIntro.png"
+
+
+- teamname: NLC<sup>2</sup>
+  mentor:
+    names: [Teniola Oluwaseyitan]
+    affiliation: [Mississippi Valley State University]
+    affiliationurl: [https://www.mvsu.edu/]
+    role: [Mentor]
+    socials: ['https://www.linkedin.com/in/teniola-oluwaseyitan-3a4622262/']
+    email: [teniola.oluwaseyitan@mvsu.edu]
+  members:
+    names: [Christian Johnson, Nole Stites, Robert Campbell, Lisha Ramon]
+    affiliation: [Morehouse College, Southern Oregon University, Southern
+        Oregon University, SUNY Oneonta]
+    affiliationurl: ['https://morehouse.edu/', 'https://sou.edu/', 'https://sou.edu/',
+      'https://suny.oneonta.edu/']
+    major: [Software Engineering, Computer Science, Computer Science, Computer
+        Science/Astronomy]
+    role: [Hacker / participant, Hacker / participant, Hacker / participant,
+      Hacker / participant]
+    socials: ['https://www.linkedin.com/in/christian-johnson-a1b248217/',
+      'https://www.linkedin.com/in/nole-stites/', .nan, 'https://www.linkedin.com/in/lisha-r-44588111b/']
+    email: [christianlj27@gmail.com, nole.stites@gmail.com, r.chandler.campbell@gmail.com,
+      lisharamontn@gmail.com]
+  themesong: "https://uppbeat.io/track/monument-music/mellifluous-mirage"
+  themesongname: "Monument Music - Melifluous-Mirage"
+  #zoombackground: {}
+  projecturl: {}
+  projectgoals: >
+    <br> &#8226; Create a user-friendly website template for institutions to store and query training resources that don’t use a CLI
+    <br> &#8226; Connect a database to the website that stores the training resources and supports the CRUD operations
+    <br> &#8226; Allow a user to download a JSON file for a given training resource returned from a search query
+
+  targeturl: https://hpc-ed.github.io
+  #emojicode: {}
+  awards: ['Best Team Introduction','One-Day Progress Challenge','Judges Award']
+  links:
+    - name: GitHub Repo
+      url: https://github.com/ChristianJohnsonL/SGX3-Hackathon-Project-2024
+      icon: "fa-brands fa-github"
+      iconcolor: black
+    - name: "HPC-ED API"
+      url: "https://hpc-ed.github.io"
+      icon: "fa-solid fa-link"
+      iconcolor: blue
+    - name: "Team Goals and Project Plan"
+      url: "teams/nlc2/Goals-Plan.pdf"
+      icon: fa-regular fa-file-pdf
+      iconcolor: red
+  images:
+    - name: Team Introduction
+      url: "teams/nlc2/TeamIntro.pdf"
+      imagelink: "teams/nlc2/TeamIntro.png"
 
 - teamname: "Pandora\u2019s Programmers"
   mentor:
@@ -164,59 +217,6 @@ teams:
     - name: Team Introduction
       url: "teams/pandoras_programmers/TeamIntro2.pdf"
       imagelink: "teams/pandoras_programmers/TeamIntro2.png"
-
-- teamname: NLC<sup>2</sup>
-  mentor:
-    names: [Teniola Oluwaseyitan]
-    affiliation: [Mississippi Valley State University]
-    affiliationurl: [https://www.mvsu.edu/]
-    role: [Mentor]
-    socials: ['https://www.linkedin.com/in/teniola-oluwaseyitan-3a4622262/']
-    email: [teniola.oluwaseyitan@mvsu.edu]
-  members:
-    names: [Christian Johnson, Nole Stites, Robert Campbell, Lisha Ramon]
-    affiliation: [Morehouse College, Southern Oregon University, Southern
-        Oregon University, SUNY Oneonta]
-    affiliationurl: ['https://morehouse.edu/', 'https://sou.edu/', 'https://sou.edu/',
-      'https://suny.oneonta.edu/']
-    major: [Software Engineering, Computer Science, Computer Science, Computer
-        Science/Astronomy]
-    role: [Hacker / participant, Hacker / participant, Hacker / participant,
-      Hacker / participant]
-    socials: ['https://www.linkedin.com/in/christian-johnson-a1b248217/',
-      'https://www.linkedin.com/in/nole-stites/', .nan, 'https://www.linkedin.com/in/lisha-r-44588111b/']
-    email: [christianlj27@gmail.com, nole.stites@gmail.com, r.chandler.campbell@gmail.com,
-      lisharamontn@gmail.com]
-  themesong: "https://uppbeat.io/track/monument-music/mellifluous-mirage"
-  themesongname: "Monument Music - Melifluous-Mirage"
-  #zoombackground: {}
-  projecturl: {}
-  projectgoals: >
-    <br> &#8226; Create a user-friendly website template for institutions to store and query training resources that don’t use a CLI
-    <br> &#8226; Connect a database to the website that stores the training resources and supports the CRUD operations
-    <br> &#8226; Allow a user to download a JSON file for a given training resource returned from a search query
-
-  targeturl: https://hpc-ed.github.io
-  #emojicode: {}
-  awards: ['Best Team Introduction','One-Day Progress Challenge']
-  links:
-    - name: GitHub Repo
-      url: https://github.com/ChristianJohnsonL/SGX3-Hackathon-Project-2024
-      icon: "fa-brands fa-github"
-      iconcolor: black
-    - name: "HPC-ED API"
-      url: "https://hpc-ed.github.io"
-      icon: "fa-solid fa-link"
-      iconcolor: blue
-    - name: "Team Goals and Project Plan"
-      url: "teams/nlc2/Goals-Plan.pdf"
-      icon: fa-regular fa-file-pdf
-      iconcolor: red
-  images:
-    - name: Team Introduction
-      url: "teams/nlc2/TeamIntro.pdf"
-      imagelink: "teams/nlc2/TeamIntro.png"
-
 
 
 

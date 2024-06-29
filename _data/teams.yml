@@ -96,7 +96,7 @@ teams:
     <br> &#8226; Allow a user to download a JSON file for a given training resource returned from a search query
   #emojicode: {}
   targeturl: https://hpc-ed.github.io
-  awards: ['Best Team Project Plan','Best Introduction Trailer',"People's Choice Award"]
+  awards: ['Best Team Project Plan','Best Introduction Trailer',"Viewer's Choice Award"]
   links:
     - name: GitHub Repo
       url: https://github.com/Aceentt/Data_Detectives
